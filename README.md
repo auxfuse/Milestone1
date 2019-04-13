@@ -1,7 +1,7 @@
-# Milestone Project 1 Website 
+# Milestone Project 1
 ***
 
-##_One Last Rep Responsive Website Project {Milestone Project 1}_
+## _One Last Rep Responsive Website Project_
 ***
 
 ### What does it do and what does it need to fulfil?
