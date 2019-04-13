@@ -6,12 +6,59 @@ header {
     background: #000000;
 }
 
-article {
-    height: 100%;
+nav {
+    font-family: 'Oswald' , sans-serif;
+    position: absolute;
 }
 
-footer {
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+nav li {
+    font-size: 2.4em;
+    line-height: 80px;
+    height: 80px;
+    display: inline-block;
+    margin: 10px;
+    padding: 15px;
+    position: relative;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    position: relative;
+}
+
+nav li a::hover {
+
+}
+
+/*footer {
     width: 100%;
     height: 80px;
     background: #000000;
+}*/
+
+/* Header */
+
+header img {
+    width: 75px;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+/* Media Queries */
+
+@media(min-width: 768px) {
+
+
 }
