@@ -1,6 +1,12 @@
 /* Global */
-.bg-custom {
+
+/* Navbar */
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
     background-color: black;
+    text-align: center;
 }
 
 .navbar-brand {
@@ -12,8 +18,48 @@
     height: 65px;
 }
 
-.navbar-nav {
-    float: right;
+.nav-item {
+    font-size: 1.2em;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Index Welcome image */
+
+.main-img {
+    height: 50vh;
+
+     background: url("../images/busyGym.jpg") no-repeat bottom;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      position: relative;
+}
+
+.main-img .lead {
+    margin: 25px 0;
+    color: white;
+    font-size: 2.4rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+p .orange {
+    color: orangered;
 }
 
 /*footer {
