@@ -1,5 +1,9 @@
 /* Global */
 
+.container-wrapper {
+    width: 100%;
+}
+
 /* Navbar */
 
 .navbar {
@@ -27,7 +31,7 @@
 
 .main-img {
     height: 50vh;
-
+    width: 100%;
      background: url("../images/busyGym.jpg") no-repeat bottom;
       -webkit-background-size: cover;
       -moz-background-size: cover;
@@ -49,18 +53,13 @@
     text-align: center;
 }
 
-.opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
-}
-
 p .orange {
     color: orangered;
 }
+
+/* Testimonials Section */
+
+
 
 /*footer {
     width: 100%;
@@ -73,3 +72,9 @@ p .orange {
 
 /* Media Queries */
 
+@media (min-width: 768px) {
+    .col-md-4 {
+        flex: 0 0 50%;
+        width: 33%;
+    }
+}
