@@ -62,7 +62,7 @@
                 <div class="row">
                     <div class="col-12 header">
                         <h2 class="text-uppercase testimonials-header">Testimonials:</h2>
-                        <hr class="block-divider block-divider--short">
+                        <hr class="block-divider">
                     </div>
                 </div>
                 <div class="row">
@@ -122,8 +122,44 @@
                     <li class="footer-item"><a href="#">Accreditation</a></li>
                 </ul>
             </div>
+            <div class="col-sm-4 sign-up">
+                <section class="free-intro">
+                    <h3 class="free-intro-header">Schedule FREE Intro Class!</h3>
+                    <button class="btn btn-lg btn--cta btn--orange" data-toggle="modal" data-target="#signUpModal">Click here!</button>
+                </section>
+            </div>
         </div>
     </footer>
+
+<!-- Modal Popup -->
+    <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Let's get you started.</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="Name">Full Name</label>
+                            <input type="text" class="form-control" id="Name" aria-describedby="nameHelp" placeholder="Enter Full Name">
+                            <small id="nameHelp" class="form-text text-muted">Your personal details are safe with us!</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- / . Modal Popup -->
 
 
 <!-- JQuery -->

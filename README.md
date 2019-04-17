@@ -26,6 +26,7 @@
 * Github
 * PyCharm IDE
 * Google Chrome Developer Tools
+* Eye Dropper (Color Picker) Open Source Google Chrome Extension
 * Some Imported Javascript & JQuery for the Modal
 
 ### Deployment.

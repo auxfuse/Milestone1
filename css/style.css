@@ -4,6 +4,15 @@
     width: 100%;
 }
 
+/* Block Dividers */
+
+.block-divider {
+    width: 175px;
+    height: 2px;
+    border: 0;
+    background-color: orangered;
+}
+
 /* Navbar */
 
 .navbar {
@@ -28,6 +37,10 @@
 }
 
 /* Index Welcome image */
+
+figure {
+    margin: 0 !important;
+}
 
 .main-img {
     height: 50vh;
@@ -67,14 +80,14 @@
     text-align: center;
 }
 
-.block-divider--short {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: orangered;
+.media {
+    padding: 0 20px 0;
 }
 
 .media-body p {
     color: white;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 p .orange {
@@ -99,9 +112,18 @@ footer {
     text-decoration: none;
 }
 
+.sign-up h3 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.sign-up .btn--orange {
+    display: inline-block;
+}
+
 /* Media Queries */
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
     .col-md-4 {
         flex: 0 0 50%;
         width: 33%;
