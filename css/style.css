@@ -56,12 +56,21 @@
 /* Testimonials Section */
 
 .container-wrapper-testimonials {
-    margin: 30px 0 0 0;
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
     background-color: #1d2527;
 }
 
 .testimonials-header {
-    color: #ffffff;
+    color: orangered;
+    text-align: center;
+}
+
+.block-divider--short {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: orangered;
 }
 
 .media-body p {
@@ -77,9 +86,17 @@ footer {
     background: #000000;
 }
 
-.footer-list .nav-item a {
-    color: white;
+.footer-list .footer-item a {
+    color: #7f7f7f;
+}
+
+.footer-item {
     list-style-type: none;
+    padding-top: 0.5rem;
+}
+
+.footer-list li a {
+    text-decoration: none;
 }
 
 /* Media Queries */
