@@ -122,11 +122,44 @@
                     <li class="footer-item"><a href="#">Accreditation</a></li>
                 </ul>
             </div>
-            <div class="col-sm-4 sign-up">
+            <div class="col-sm-4 sign-up text-center">
                 <section class="free-intro">
-                    <h3 class="free-intro-header">Schedule FREE Intro Class!</h3>
-                    <button class="btn btn-lg btn--cta btn--orange" data-toggle="modal" data-target="#signUpModal">Click here!</button>
+                    <h3 class="free-intro-header">Schedule <span class="faded-orange">FREE</span> Intro Class!</h3>
+                        <button class="btn btn-sm btn--cta btn--orange" data-toggle="modal" data-target="#signUpModal">Click here!</button>
                 </section>
+            </div>
+            <div class="col-sm-4">
+                <ul class="list-inline social-links">
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.facebook.com/OLR-Fitness-486930048474107/">
+                            <i class="fab fa-facebook" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fab fa-twitter" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="https://www.instagram.com/olrfitnesswaterford/?hl=en">
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fab fa-linkedin" aria-hidden="true"></i>
+                            <span class="sr-only">LinkedIn</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" href="#">
+                            <i class="fab fa-youtube" aria-hidden="true"></i>
+                            <span class="sr-only">Youtube</span>
+                        </a>
+                    </li>
             </div>
         </div>
     </footer>
@@ -145,13 +178,23 @@
                     <form>
                         <div class="form-group">
                             <label for="Name">Full Name</label>
-                            <input type="text" class="form-control" id="Name" aria-describedby="nameHelp" placeholder="Enter Full Name">
+                            <input type="text" class="form-control" id="Name" aria-describedby="nameHelp" placeholder="Enter Full Name" required>
                             <small id="nameHelp" class="form-text text-muted">Your personal details are safe with us!</small>
                         </div>
                         <div class="form-group">
-                            <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <label for="InputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
                             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="PhoneNo">Contact Number</label>
+                            <input type="number" class="form-control" id="PhoneNo" aria-describedby="phoneNoHelp" placeholder="Enter Phone Number" required>
+                            <small id="phoneNoHelp" class="form-text text-muted">We'll never share your Contact number with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="goals">What are your Goals?</label>
+                            <textarea class="form-control" id="goals" aria-describedby="goalsNoHelp" placeholder="Tell us what you need!" required></textarea>
+                            <small id="goalsHelp" class="form-text text-muted">This information is strictly confidential and will enable us to tailor your first class to your requirement!</small>
                         </div>
                         <button type="submit" class="btn btn-success">Submit</button>
                     </form>

@@ -110,6 +110,18 @@ footer {
 
 .footer-list li a {
     text-decoration: none;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.footer-list li a:hover {
+    color: #ff6e38;
+}
+
+.sign-up {
+    margin-top: 20px;
 }
 
 .sign-up h3 {
@@ -117,13 +129,65 @@ footer {
     padding-top: 20px;
 }
 
-.sign-up .btn--orange {
-    display: inline-block;
+.free-intro .faded-orange {
+    color: #ff6e38;
+}
+
+.btn--orange {
+    background-color: #1d2527;
+    color: #ff6e38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-links {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.social-links li a i {
+    width: 40px;
+    height: 40px;
+    font-size: 2em;
+    color: #7f7f7f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    color: #ff6e38;
+}
+
+/* Modal */
+
+.modal-header, .form-group {
+    color: orangered;
+}
+
+.close {
+    color: orangered !important;
+}
+
+.form-group small {
+    color: #ld2527 !important;
+}
+
+.btn-success {
+    background-color: white !important;
+    color: orangered !important;
+    border-color: #ced4da !important;
 }
 
 /* Media Queries */
 
 @media (min-width: 992px) {
+    .col-sm-4 {
+        width: 100%;
+    }
+
     .col-md-4 {
         flex: 0 0 50%;
         width: 33%;
