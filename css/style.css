@@ -78,7 +78,7 @@ figure {
     text-align: center;
 }
 
-/* Testimonials Section */
+/* Index Testimonials Section */
 
 .container-wrapper-testimonials {
     margin: 0;
@@ -103,12 +103,37 @@ figure {
 }
 
 p .orange {
-    color: orangered;
+    color: #ff6e38;
 }
+
+/* About Owner & History Section */
+
+.about-main {
+    margin-top: 90px;
+    background: #1d2527;
+}
+
+.owner-image {
+    padding-top: 20px;
+    padding-left: 30px !important;
+}
+
+.owner-details {
+    font-size: 1.2em;
+    line-height: 3.2rem;
+    font-family: 'oswald', sans-serif;
+    color: #ced4da;
+}
+
+.owner-details hr {
+    background-color: #ced4da !important;
+}
+
 /* Footer */
 
 footer {
     background: #000000;
+
 }
 
 .footer-list .footer-item a {
