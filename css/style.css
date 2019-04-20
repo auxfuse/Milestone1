@@ -36,6 +36,18 @@
     font-family: 'Oswald', sans-serif;
 }
 
+.active a {
+    color: #ff6e38 !important;
+}
+
+.navbar ul li a:hover {
+    color: #ff6e38 !important;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
 /* Index Welcome image */
 
 figure {
@@ -172,7 +184,7 @@ footer {
 }
 
 .form-group small {
-    color: #ld2527 !important;
+    color: #7e9ca7 !important;
 }
 
 .btn-success {
