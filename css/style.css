@@ -132,7 +132,7 @@ p .orange {
 /* About Set Apart Column */
 
 .set-apart-column {
-    height: 40em;
+    height: auto;
     width: 100%;
      background: url("../images/bodybuilding-close-up-dumbbells-260352.jpg") no-repeat center;
       -webkit-background-size: cover;
@@ -154,12 +154,6 @@ p .orange {
     text-align: center;
     line-height: 12.0rem;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-
-.video-tour {
-    background-color: black;
-    padding: 0;
-    margin: 0;
 }
 
 /* Footer */
