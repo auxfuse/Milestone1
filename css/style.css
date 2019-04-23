@@ -156,6 +156,65 @@ p .orange {
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
+/* Coaches Profile Section */
+
+.coaches-profiles {
+    margin-top: 90px;
+    background-color: #1d2527;
+}
+
+.coach-details {
+    padding-top: 20px;
+    padding-left: 30px !important;
+}
+
+.coach-details img {
+    margin-left: 10px;
+    height: 100px;
+    width: 100px;
+}
+
+.coach-details h4 {
+    font-family: 'Oswald', sans-serif;
+    color: #ced4da;
+    text-decoration: underline;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.list-group {
+    color: #ced4da;
+    list-style-type: none;
+    padding: 15px 0px;
+    text-align: center;
+}
+
+.list-group-item {
+    background-color: #1d2527 !important;
+    border: none !important;
+}
+
+.list-group li {
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.8em;
+    padding: 10px 0px;
+}
+
+.coach-bio h3 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: #ff6e38;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) , rgba(255, 255, 255, 0.1));
+    padding: auto;
+}
+
+.coach-bio p {
+    color: #ced4da;
+    font-family: 'Oswald', sans-serif;
+    line-height: 2.4em;
+    font-size: 18px;
+}
+
 /* Footer */
 
 footer {
