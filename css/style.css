@@ -170,11 +170,11 @@ p .orange {
 
 .coach-details img {
     margin-left: 10px;
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
 }
 
-.coach-details h4 {
+.coach-expertise h4 {
     font-family: 'Oswald', sans-serif;
     color: #ced4da;
     text-decoration: underline;
@@ -200,7 +200,7 @@ p .orange {
     padding: 10px 0px;
 }
 
-.coach-bio h3 {
+.coach-name h3 {
     font-family: 'Oswald', sans-serif;
     text-align: center;
     color: #ff6e38;
