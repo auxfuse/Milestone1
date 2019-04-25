@@ -118,6 +118,11 @@ p .orange {
     padding-left: 30px !important;
 }
 
+.owner-image img {
+    height: 200px;
+    width: 200px;
+}
+
 .owner-details {
     font-size: 1.2em;
     line-height: 3.2rem;
@@ -185,7 +190,7 @@ p .orange {
 .list-group {
     color: #ced4da;
     list-style-type: none;
-    padding: 15px 0px;
+    padding: 15px 0;
     text-align: center;
 }
 
@@ -197,7 +202,7 @@ p .orange {
 .list-group li {
     font-family: 'Oswald', sans-serif;
     font-size: 0.8em;
-    padding: 10px 0px;
+    padding: 10px 0;
 }
 
 .coach-name h3 {
