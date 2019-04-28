@@ -221,6 +221,53 @@ p .orange {
     font-size: 18px;
 }
 
+/* Classes Breakdown Section */
+
+.classes-breakdown {
+    margin-top: 90px;
+    background-color: #1d2527;
+}
+
+.class-timetable-day {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.class-timetable-day li {
+    border: 2px solid #ff6e38;
+    list-style-type: none;
+    border-radius: 14px 14px 0 0;
+    margin: 10px;
+    overflow: auto;
+    background: #ced4da;
+}
+
+.day {
+    background-color: #ff6e38 !important;
+    padding: 6px 10px 10px 10px;
+}
+
+.day h4 {
+    color: #1d2527;
+    text-align: left;
+    font-size: 1.4em;
+}
+
+.classes-breakdown ul::before {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    margin: 20px 0;
+    background: #ff6e38;
+}
+
+
+
 /* Footer */
 
 footer {
