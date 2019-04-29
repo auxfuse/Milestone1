@@ -368,4 +368,20 @@ footer {
         flex: 0 0 50%;
         width: 33%;
     }
+    /* Classes Page expansion */
+    .classes-breakdown ul::before {
+        height: 0;
+        width: 0;
+    }
+
+    .class-timetable-day {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .class-timetable-day li {
+        width: 10%;
+        padding: 0 5px 0 5px;
+        height: 100px;
+    }
 }
