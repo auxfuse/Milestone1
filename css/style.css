@@ -228,6 +228,32 @@ p .orange {
     background-color: #1d2527;
 }
 
+.timetable-header {
+    margin-top: 10px;
+}
+
+.timetable-header h2 {
+    color: #ff6e38;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.timetable-header h2::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    margin: 20px 0;
+    background: #ff6e38;
+}
+
+.timetable-subheader {
+    color: #ced4da;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: large;
+}
+
 .class-timetable-day {
     font-family: 'Oswald', sans-serif;
     font-size: 1.2em;
@@ -372,6 +398,13 @@ footer {
     .classes-breakdown ul::before {
         height: 0;
         width: 0;
+    }
+
+    .class-timetable-day {
+        border-top: 1px solid #ff6e38;
+        width: 100%;
+        margin: 20px 0;
+        padding: 15px 0 0 0;
     }
 
     .class-timetable-day {
