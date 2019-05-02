@@ -4,6 +4,14 @@
     width: 100%;
 }
 
+.uppercase {
+    text-transform: uppercase;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
 /* Block Dividers */
 
 .block-divider {
@@ -228,6 +236,14 @@ p .orange {
     background-color: #1d2527;
 }
 
+/* Classes Class details */
+
+.class-details i {
+    color: #ced4da;
+}
+
+/* Classes Timetable */
+
 .timetable-header {
     margin-top: 10px;
 
@@ -294,7 +310,38 @@ p .orange {
     background: #ff6e38;
 }
 
+/* Contact Form */
 
+.contact-form-section {
+    margin: 110px 0 20px 0;
+    background-color: #ced4da;
+    padding: 20px;
+    border: solid 1px orangered;
+    border-radius: 7px;
+}
+
+.contact-form-header {
+    font-family: 'Oswald', sans-serif;
+    color: #ff6e38;
+    padding-top: 10px;
+}
+
+.contact-form-header hr {
+    background-color: #7f7f7f;
+}
+
+.contact-form-sub-header {
+    font-family: 'Oswald', sans-serif;
+    padding-bottom: 10px;
+}
+
+form .form-control {
+    margin-bottom: 10px;
+}
+
+form textarea {
+    height: 15rem !important;
+}
 
 /* Footer */
 
