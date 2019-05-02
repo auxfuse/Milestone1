@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5df406b-7b5d-4de0-a44f-eed8d37a993d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="c5df406b-7b5d-4de0-a44f-eed8d37a993d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,20 +13,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
+            <state relative-caret-position="340">
               <caret line="65" column="125" selection-start-line="65" selection-start-column="125" selection-end-line="65" selection-end-column="125" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="339" column="1" lean-forward="true" selection-start-line="339" selection-start-column="1" selection-end-line="339" selection-end-column="1" />
+            <state relative-caret-position="493">
+              <caret line="338" column="10" selection-start-line="338" selection-start-column="10" selection-end-line="338" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -147,7 +142,7 @@
       <workItem from="1556380769813" duration="2127000" />
       <workItem from="1556443681572" duration="8265000" />
       <workItem from="1556572096181" duration="4880000" />
-      <workItem from="1556812499117" duration="10144000" />
+      <workItem from="1556812499117" duration="10708000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1555161008715</created>
@@ -167,13 +162,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132436000" />
+    <option name="totallyTimeSpent" value="133000000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49919224" visible="true" weight="0.08795309" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49919224" visible="true" weight="0.08795309" />
       <window_info id="Structure" order="1" sideWeight="0.50080776" side_tool="true" weight="0.102345414" />
       <window_info id="Favorites" order="2" sideWeight="0.50080776" side_tool="true" weight="0.102345414" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -187,7 +182,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50159913" side_tool="true" weight="0.24593717" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49840087" visible="true" weight="0.24593717" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49840087" visible="true" weight="0.24593717" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32827735" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -324,17 +319,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contact.html">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="65" column="125" selection-start-line="65" selection-start-column="125" selection-end-line="65" selection-end-column="125" />
+        <state relative-caret-position="493">
+          <caret line="338" column="10" selection-start-line="338" selection-start-column="10" selection-end-line="338" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="339" column="1" lean-forward="true" selection-start-line="339" selection-start-column="1" selection-end-line="339" selection-end-column="1" />
+        <state relative-caret-position="340">
+          <caret line="65" column="125" selection-start-line="65" selection-start-column="125" selection-end-line="65" selection-end-column="125" />
         </state>
       </provider>
     </entry>
