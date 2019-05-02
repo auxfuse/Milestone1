@@ -27,7 +27,7 @@
 }
 
 .navbar-brand img{
-    width: 65px;
+    width: 200px;
     height: 65px;
 }
 
@@ -230,6 +230,7 @@ p .orange {
 
 .timetable-header {
     margin-top: 10px;
+
 }
 
 .timetable-header h2 {
@@ -252,6 +253,7 @@ p .orange {
     text-align: center;
     font-family: 'Oswald', sans-serif;
     font-size: large;
+    margin-bottom: 0;
 }
 
 .class-timetable-day {
