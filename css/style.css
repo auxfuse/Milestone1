@@ -335,6 +335,11 @@ p .orange {
     padding-bottom: 10px;
 }
 
+form {
+    width: 50%;
+    margin: auto;
+}
+
 form .form-control {
     margin-bottom: 10px;
 }
