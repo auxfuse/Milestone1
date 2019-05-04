@@ -61,18 +61,42 @@
             <input type="text" name="name" id="fullname" class="form-control" placeholder="Enter Full Name" required="">
             <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Enter Email" required="">
             <input type="number" name="phone" id="phoneno-query" class="form-control" placeholder="Enter Phone Number" required="">
-
-            <select class="custom-select my-1 mr-sm-2 category-dropdown" id="category" required="">
-                <option selected>What is your query related to?</option>
+            <!-- Dropdown of Categories with NO Label to keep with style of Form-->
+            <select class="custom-select mr-sm-2 category-dropdown" id="category" required="">
+                <option value="">What is your query related to?</option>
                 <option value="Health">Health</option>
                 <option value="Fitness">Fitness</option>
                 <option value="Personal Training">Personal Training</option>
             </select>
 
             <textarea rows="5" name="query" id="query" class="form-control" placeholder="What can we do for you?" required=""></textarea>
+
+            <button type="submit" class="btn btn-success">Submit</button>
         </form>
     </div>
 </section>
+
+<!-- Opening Times -->
+    <div class="row opening-hours-header">
+        <h4 class="col-sm-12 uppercase text-center">Our opening times!</h4>
+    </div>
+    <div class="row opening-hours">
+        <ul class="text-center">
+            <li class="col-sm-12 weekdays">
+                <p><i class="fas fa-calendar-week"></i> Monday - Friday</p>
+                <span class="text-center">7:00AM - 9:00PM</span>
+            </li>
+            <li class="col-sm-12 weekdays">
+                <p><i class="fas fa-calendar-day"></i> Saturday - Sunday</p>
+                <span class="text-center">7:00AM - 9:00PM</span>
+            </li>
+            <li class="col-sm-12 weekdays">
+                <p><i class="fas fa-sleigh"></i> Holidays - Bank holidays</p>
+                <span class="text-center">Check our Social Media for opening times.</span>
+            </li>
+        </ul>
+    </div>
+
 
 
 <!-- Footer (social media/Free Intro Class CTA/Privacy Policy etc etc) -->

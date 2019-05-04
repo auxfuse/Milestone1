@@ -246,7 +246,6 @@ p .orange {
 
 .timetable-header {
     margin-top: 10px;
-
 }
 
 .timetable-header h2 {
@@ -313,7 +312,7 @@ p .orange {
 /* Contact Form */
 
 .contact-form-section {
-    margin: 110px 0 20px 0;
+    margin: 91px 0 20px 0;
     background-color: #ced4da;
     padding: 20px;
     border: solid 1px orangered;
@@ -335,11 +334,6 @@ p .orange {
     padding-bottom: 10px;
 }
 
-form {
-    width: 50%;
-    margin: auto;
-}
-
 form .form-control {
     margin-bottom: 10px;
 }
@@ -348,11 +342,57 @@ form textarea {
     height: 15rem !important;
 }
 
+.custom-select {
+    color: #495057 !important;
+    margin-bottom: 10px;
+}
+
+/* Opening Hours Contact Page */
+
+.opening-hours-header {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.6em;
+    color: #1d2527;
+    padding: 0;
+    margin: 0 auto 15px;
+}
+
+.opening-hours-header h4::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 80%;
+    margin: 20px auto 0;
+    background: #ff6e38;
+}
+
+.opening-hours ul {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    color: #1d2527;
+    list-style-type: none;
+    padding: 0;
+    margin: auto;
+}
+
+.opening-hours li {
+    margin-bottom: 20px;
+}
+
+.weekdays p {
+    margin-bottom: 0;
+    text-decoration: underline;
+}
+
+.weekdays i {
+    color: #ff6e38;
+}
+
+
 /* Footer */
 
 footer {
     background: #000000;
-
 }
 
 .footer-list .footer-item a {
@@ -470,5 +510,11 @@ footer {
         width: 10%;
         padding: 0 5px 0 5px;
         height: 100px;
+    }
+
+    /* Form width resize */
+    form {
+        width: 80%;
+        margin: auto;
     }
 }
