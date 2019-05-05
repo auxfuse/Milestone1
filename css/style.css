@@ -494,6 +494,7 @@ footer {
         flex: 0 0 50%;
         width: 33%;
     }
+
     /* Classes Page expansion */
     .classes-breakdown ul::before {
         height: 0;
