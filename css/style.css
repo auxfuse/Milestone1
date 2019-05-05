@@ -313,7 +313,15 @@ p .orange {
 
 .contact-form-section {
     margin: 91px 0 20px 0;
-    background-color: #ced4da;
+    /*background-color: #ced4da;*/
+
+    background: url("../images/barbell_rack.jpg") no-repeat center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+
     padding: 20px;
     border: solid 1px orangered;
     border-radius: 7px;
@@ -325,12 +333,18 @@ p .orange {
     padding-top: 10px;
 }
 
-.contact-form-header hr {
-    background-color: #7f7f7f;
+.contact-form-header::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 80%;
+    margin: 20px auto 0;
+    background: #ff6e38;
 }
 
 .contact-form-sub-header {
     font-family: 'Oswald', sans-serif;
+    color: #ced4da;
     padding-bottom: 10px;
 }
 
@@ -521,7 +535,7 @@ footer {
 
     /* Form width resize */
     form {
-        width: 80%;
+        width: 50%;
         margin: auto;
     }
 }
