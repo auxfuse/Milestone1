@@ -395,6 +395,8 @@ footer {
     background: #000000;
 }
 
+/* Auxiliary Links */
+
 .footer-list .footer-item a {
     color: #7f7f7f;
 }
@@ -416,6 +418,8 @@ footer {
     color: #ff6e38;
 }
 
+/* Sign-up Footer Section*/
+
 .sign-up {
     margin-top: 20px;
 }
@@ -436,6 +440,8 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+/* Social Media Links Footer Section */
 
 .social-links {
     padding-top: 50px;
