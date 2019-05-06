@@ -534,12 +534,28 @@ footer {
     .class-timetable-day li {
         width: 10%;
         padding: 0 5px 0 5px;
-        height: 100px;
+        min-height: 100px;
     }
 
     /* Form width resize */
     form {
         width: 50%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 1280px) {
+    /* Coaches Section Compressions & Modifications */
+
+    .coach-details {
+        display: none;
+    }
+
+    .coach-bio {
+        margin: auto;
+    }
+
+    .coach-expertise {
         margin: auto;
     }
 }
