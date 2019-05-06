@@ -100,6 +100,10 @@ figure {
     text-align: center;
 }
 
+.testimonial {
+    padding: 20px 0;
+}
+
 .media {
     padding: 0 20px 0;
 }
