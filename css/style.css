@@ -416,6 +416,10 @@ footer {
 
 /* Auxiliary Links */
 
+.footer-list .additional-links-footer {
+    padding-left: 0 !important;
+}
+
 .footer-list .footer-item a {
     color: #7f7f7f;
 }
