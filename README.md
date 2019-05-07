@@ -25,6 +25,7 @@
 * Git
 * Github
 * PyCharm IDE
+* TinyJPG.com
 * Google Chrome Developer Tools
 * Eye Dropper (Color Picker) Open Source Google Chrome Extension
 * Some Imported Javascript & JQuery for the Modal
@@ -40,7 +41,8 @@ the inception through to finalisation and deployment. <i>Deployment details go h
 ### Testing.
 
 <i>Talk about testing of each facet of each website and on what devices....talk about Chrome Dev Tools....
-Talk about hyperlinks testing & modal/CTAs etc. Talk about using Slack and other CI students to test the overall product.</i>
+Talk about hyperlinks testing & modal/CTAs etc. Talk about using Slack and other CI students to test the overall product.
+Talk about overriding user agent stylings inherited on some elements like, UL & strange padding, found during testing. </i>
 
 
 ### Work based on other code.
