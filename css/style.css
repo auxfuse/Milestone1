@@ -593,3 +593,10 @@ footer {
         padding: 10px 0 !important;
     }
 }
+
+@media (min-width: 576px) and (max-width: 991px) {
+    /* Index Testimonial image vertical padding to simulate centering. */
+    .testimonial-image {
+        margin-top: 25px;
+    }
+}
