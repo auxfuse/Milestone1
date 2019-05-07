@@ -443,13 +443,10 @@ footer {
 
 /* Sign-up Footer Section*/
 
-.sign-up {
-    margin-top: 20px;
-}
-
 .sign-up h3 {
     text-align: center;
-    padding-top: 20px;
+    padding: 20px 0;
+    margin-bottom: 0;
 }
 
 .free-intro .faded-orange {
@@ -562,5 +559,31 @@ footer {
 
     .coach-expertise {
         margin: auto;
+    }
+}
+
+@media (min-width: 768px) {
+    /* Footer Additional & Social Links Alignment correction for tablet */
+    .additional-links-footer {
+        text-align: left;
+    }
+
+    .social-links {
+        text-align: right;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 1024px){
+    /* Footer Additional and CTA Sections Padding correction for tablet sizes */
+    .footer-list {
+        padding-top: 10px;
+    }
+
+    .free-intro {
+        padding-bottom: 10px;
+    }
+
+    .free-intro-header {
+        padding: 10px 0 !important;
     }
 }
