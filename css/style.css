@@ -160,32 +160,51 @@ p .orange {
     background: #ff6e38;
 }
 
-/* About Set Apart Column */
+/* Amenities List Breakdown Section */
 
-.set-apart-column {
-    height: auto;
-    width: 100%;
-     background: url("../images/bodybuilding-close-up-dumbbells-260352.jpg") no-repeat center;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-
-      display: flex;
-      align-items: center;
-      justify-content: center;
-
-      position: relative;
+.about-body {
+    background-color: #1d2527;
 }
 
-.set-apart-column p {
+.amenities-header h4 {
     font-family: 'Oswald', sans-serif;
-    font-size: 2.4em;
-    color: #ced4da;
     text-align: center;
-    line-height: 12.0rem;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: #ff6e38;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) , rgba(255, 255, 255, 0.1));
+    padding: auto;
 }
+
+.amenities-list {
+    color: #ced4da;
+    list-style-type: none;
+    padding: 15px 0;
+    text-align: left;
+}
+
+.amenities-item {
+    background-color: #1d2527 !important;
+    border: none !important;
+}
+
+.amenities-list li {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    padding: 10px 0;
+}
+
+.amenities-item::before {
+    content: '';
+    display: inline-block;
+    height: 25px;
+    width: 35px;
+    background-image: url('../images/olrfitnessblack-tiger.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* About page Carousel */
+
+
 
 /* Coaches Profile Section */
 
