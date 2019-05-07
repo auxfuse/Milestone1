@@ -131,14 +131,15 @@ p .orange {
     background: #1d2527;
 }
 
-.owner-image {
-    padding-top: 20px;
-    padding-left: 30px !important;
+.owner-main {
+    margin: auto 0;
 }
 
-.owner-image img {
-    height: 200px;
-    width: 200px;
+.owner-image {
+    background: url("../images/daveowner.jpg") no-repeat center;
+    position: relative;
+    background-size: cover;
+    height: 500px;
 }
 
 .owner-details {
@@ -146,10 +147,16 @@ p .orange {
     line-height: 3.2rem;
     font-family: 'oswald', sans-serif;
     color: #ced4da;
+    padding: 0 auto;
 }
 
-.owner-details hr {
-    background-color: #ced4da !important;
+.owner-details p::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    margin: 20px 0;
+    background: #ff6e38;
 }
 
 /* About Set Apart Column */
