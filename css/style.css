@@ -204,8 +204,6 @@ p .orange {
 
 /* About page Carousel */
 
-
-
 /* Coaches Profile Section */
 
 .coaches-profiles {
@@ -352,7 +350,7 @@ p .orange {
     margin: 91px 0 20px 0;
     /*background-color: #ced4da;*/
 
-    background: url("../images/barbell_rack.jpg") no-repeat center;
+    background: url("../images/barbells.jpg") no-repeat center;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
