@@ -204,9 +204,15 @@ p .orange {
 
 /* About page Carousel */
 
+.carousel img {
+    object-fit: contain;
+    height: 700px;
+    min-width: 100%;
+    max-width: none;
+}
+
 .carousel-item {
     margin: 20px auto;
-    border: 1px solid #ff6e38;
 }
 
 /* Coaches Profile Section */
