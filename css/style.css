@@ -204,23 +204,16 @@ p .orange {
 
 /* About page Carousel */
 
+.carousel-item {
+    margin: 20px auto;
+    border: 1px solid #ff6e38;
+}
+
 /* Coaches Profile Section */
 
 .coaches-profiles {
     margin-top: 90px;
     background-color: #1d2527;
-}
-
-.coach-details {
-    padding-top: 20px;
-    padding-left: 30px !important;
-}
-
-.coach-details img {
-    margin-left: 10px;
-    height: 200px;
-    width: 200px;
-    padding-bottom: 10px;
 }
 
 .coach-expertise h4 {
