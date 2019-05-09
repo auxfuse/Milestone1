@@ -222,12 +222,38 @@ p .orange {
     background-color: #1d2527;
 }
 
+.coach-details {
+    margin: 20px auto;
+}
+
+.coach-details img {
+    height: 300px;
+    object-fit: contain;
+    min-height: 100%;
+    max-height: none;
+}
+
 .coach-expertise h4 {
     font-family: 'Oswald', sans-serif;
     color: #ced4da;
     text-decoration: underline;
     text-align: center;
     padding-top: 10px;
+}
+
+.coach-name h3 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: #ff6e38;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) , rgba(255, 255, 255, 0.1));
+    padding: auto;
+}
+
+.coach-bio p {
+    color: #ced4da;
+    font-family: 'Oswald', sans-serif;
+    line-height: 2.6em;
+    font-size: 20px;
 }
 
 .list-group {
@@ -248,30 +274,26 @@ p .orange {
     padding: 10px 0;
 }
 
-.coach-name h3 {
-    font-family: 'Oswald', sans-serif;
-    text-align: center;
-    color: #ff6e38;
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) , rgba(255, 255, 255, 0.1));
-    padding: auto;
+.list-group-item::before {
+    content: '';
+    display: inline-block;
+    height: 25px;
+    width: 35px;
+    background-image: url('../images/olrfitnessblack-tiger.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-.coach-bio p {
-    color: #ced4da;
-    font-family: 'Oswald', sans-serif;
-    line-height: 2.6em;
-    font-size: 20px;
-}
-
-.coach-details {
-    margin: 20px auto;
-}
-
-.coach-details img {
-    height: 300px;
-    object-fit: contain;
-    min-height: 100%;
-    max-height: none;
+.list-group-item::after {
+    content: '';
+    display: inline-block;
+    height: 25px;
+    width: 35px;
+    background-image: url('../images/olrfitnessblack-tiger.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 /* Classes Breakdown Section */
