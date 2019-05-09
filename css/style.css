@@ -244,7 +244,7 @@ p .orange {
 
 .list-group li {
     font-family: 'Oswald', sans-serif;
-    font-size: 0.8em;
+    font-size: 1.2em;
     padding: 10px 0;
 }
 
@@ -259,8 +259,19 @@ p .orange {
 .coach-bio p {
     color: #ced4da;
     font-family: 'Oswald', sans-serif;
-    line-height: 2.4em;
-    font-size: 18px;
+    line-height: 2.6em;
+    font-size: 20px;
+}
+
+.coach-details {
+    margin: 20px auto;
+}
+
+.coach-details img {
+    height: 300px;
+    object-fit: contain;
+    min-height: 100%;
+    max-height: none;
 }
 
 /* Classes Breakdown Section */
@@ -569,7 +580,7 @@ footer {
         min-height: 100px;
     }
 
-    /* Form width resize */
+    /* Contact Form width resize */
     .contact-form form {
         width: 50%;
         margin: auto;
@@ -577,11 +588,7 @@ footer {
 }
 
 @media (max-width: 1280px) {
-    /* Coaches Section Compressions & Modifications */
-
-    .coach-details {
-        display: none;
-    }
+    /* Coaches Section Margin Modifications */
 
     .coach-bio {
         margin: auto;
