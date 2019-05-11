@@ -390,8 +390,7 @@ p .orange {
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
 
     padding: 20px;
-    border: solid 1px orangered;
-    border-radius: 7px;
+    border-bottom: solid 1px orangered;
 
 }
 
