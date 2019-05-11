@@ -157,14 +157,6 @@ figure {
     max-height: none;
 }
 
-/*
-.owner-image {
-    background: url("../images/daveowner.jpg") no-repeat center;
-    position: relative;
-    background-size: cover;
-    height: 500px;
-}*/
-
 .owner-details {
     font-size: 1.2em;
     line-height: 3.2rem;
@@ -299,17 +291,6 @@ figure {
 }
 
 .list-group-item::before {
-    content: '';
-    display: inline-block;
-    height: 25px;
-    width: 35px;
-    background-image: url('../images/olrfitnessblack-tiger.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.list-group-item::after {
     content: '';
     display: inline-block;
     height: 25px;
