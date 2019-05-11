@@ -12,6 +12,10 @@
     text-align: center !important;
 }
 
+.orange {
+    color: #ff6e38;
+}
+
 /* Block Dividers */
 
 .block-divider {
@@ -104,24 +108,35 @@ figure {
     padding: 20px 0;
 }
 
+.testimonial-media {
+    margin: 15px 0;
+}
+
+.testimonial-media::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100%;
+    margin: 20px auto 0;
+    background: #ff6e38;
+}
+
 .media {
-    padding: 0 20px 0;
+    margin: 10px auto;
 }
 
-.testimonial-image {
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
+.media img{
+    height: 150px;
+    object-fit: contain;
+    min-height: 100%;
+    max-height: none;
+    border-radius: 15% 15% 15% 15% / 10% 10% 10% 10% ;
 }
 
-.media-body p {
+.blockquote p {
     color: white;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-p .orange {
-    color: #ff6e38;
+    margin: auto;
+    padding: 0 15px;
 }
 
 /* About Owner & History Section */
@@ -646,9 +661,13 @@ footer {
     }
 }
 
-@media (min-width: 576px) and (max-width: 991px) {
-    /* Index Testimonial image vertical padding to simulate centering. */
-    .testimonial-image {
-        margin-top: 25px;
+@media (max-width: 576px) {
+    .testimonial-media::after {
+        content: "";
+        display: block;
+        height: 1px;
+        width: 80%;
+        margin: 20px auto 0;
+        background: #ff6e38;
     }
 }
