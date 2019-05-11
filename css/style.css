@@ -150,12 +150,20 @@ figure {
     margin: auto 0;
 }
 
+.owner-main img {
+    height: 400px;
+    object-fit: contain;
+    min-height: 100%;
+    max-height: none;
+}
+
+/*
 .owner-image {
     background: url("../images/daveowner.jpg") no-repeat center;
     position: relative;
     background-size: cover;
     height: 500px;
-}
+}*/
 
 .owner-details {
     font-size: 1.2em;
@@ -220,6 +228,7 @@ figure {
 /* About page Carousel */
 
 .carousel img {
+    -o-object-fit: contain;
     object-fit: contain;
     height: 700px;
     min-width: 100%;
@@ -644,6 +653,7 @@ footer {
     .social-links {
         text-align: right;
     }
+
 }
 
 @media (min-width: 576px) and (max-width: 1024px){
@@ -669,5 +679,13 @@ footer {
         width: 80%;
         margin: 20px auto 0;
         background: #ff6e38;
+    }
+}
+
+@media (max-width: 768px) {
+
+    /* Margin control on owner image to add spacing from Navbar on less then tablet sizes */
+    .owner-main img {
+        margin: 15px 0 0 0;
     }
 }
