@@ -219,6 +219,10 @@ figure {
 
 /* About page Carousel */
 
+.carousel-container {
+    margin: auto 0;
+}
+
 .carousel img {
     -o-object-fit: contain;
     object-fit: contain;
@@ -510,6 +514,10 @@ footer {
 
 /* Sign-up Footer Section*/
 
+.sign-up {
+    margin: auto 0;
+}
+
 .sign-up h3 {
     color: #7f7f7f;
     text-align: center;
@@ -573,7 +581,26 @@ footer {
 
 /* Media Queries */
 
-@media (min-width: 992px) {
+/* Mobile Screen Size */
+@media (min-width: 320px) {
+    /* Testimonial block dividers width correction for mobile */
+    .testimonial-media::after {
+        content: "";
+        display: block;
+        height: 1px;
+        width: 80%;
+        margin: 20px auto 0;
+        background: #ff6e38;
+    }
+
+    /* Margin control on owner image to add spacing from Navbar on less then tablet sizes */
+    .owner-main img {
+        margin: 15px 0 0 0;
+    }
+}
+
+/* Small Tablet Screen Size */
+@media (min-width: 576px) {
     .col-sm-4 {
         width: 100%;
     }
@@ -583,6 +610,43 @@ footer {
         width: 33%;
     }
 
+    /* Coaches Section Margin Modifications */
+    .coach-bio {
+        margin: auto;
+    }
+
+    .coach-expertise {
+        margin: auto;
+    }
+
+    /* Footer Additional and CTA Sections Padding correction for tablet sizes */
+    .footer-list {
+        padding-top: 10px;
+    }
+
+    .free-intro {
+        padding-bottom: 10px;
+    }
+
+    .free-intro-header {
+        padding: 10px 0 !important;
+    }
+}
+
+/* Tablet Screen Size */
+@media (min-width: 768px) {
+    /* Footer Additional & Social Links Alignment correction for tablet */
+    .additional-links-footer {
+        text-align: left;
+    }
+
+    .social-links {
+        text-align: right;
+    }
+}
+
+/* Large Tablet & Small Laptop Screen Size */
+@media (min-width: 992px) {
     /* Classes Page expansion */
     .classes-breakdown ul::before {
         height: 0;
@@ -611,63 +675,5 @@ footer {
     .contact-form form {
         width: 50%;
         margin: auto;
-    }
-}
-
-@media (max-width: 1280px) {
-    /* Coaches Section Margin Modifications */
-
-    .coach-bio {
-        margin: auto;
-    }
-
-    .coach-expertise {
-        margin: auto;
-    }
-}
-
-@media (min-width: 768px) {
-    /* Footer Additional & Social Links Alignment correction for tablet */
-    .additional-links-footer {
-        text-align: left;
-    }
-
-    .social-links {
-        text-align: right;
-    }
-
-}
-
-@media (min-width: 576px) and (max-width: 1024px){
-    /* Footer Additional and CTA Sections Padding correction for tablet sizes */
-    .footer-list {
-        padding-top: 10px;
-    }
-
-    .free-intro {
-        padding-bottom: 10px;
-    }
-
-    .free-intro-header {
-        padding: 10px 0 !important;
-    }
-}
-
-@media (max-width: 576px) {
-    .testimonial-media::after {
-        content: "";
-        display: block;
-        height: 1px;
-        width: 80%;
-        margin: 20px auto 0;
-        background: #ff6e38;
-    }
-}
-
-@media (max-width: 768px) {
-
-    /* Margin control on owner image to add spacing from Navbar on less then tablet sizes */
-    .owner-main img {
-        margin: 15px 0 0 0;
     }
 }
