@@ -69,25 +69,30 @@ figure {
 .main-img {
     height: 50vh;
     width: 100%;
-     background: url("../images/busyGym.jpg") no-repeat bottom;
+    background: url("../images/busyGym.jpg") no-repeat center 75%;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
-      background-size: cover;
+    background-size: cover;
 
-      display: flex;
-      align-items: center;
-      justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-      position: relative;
+    position: relative;
 }
 
 .main-img .lead {
     margin: 25px 0 0 0;
     color: white;
+    text-shadow: -1px 0 #1d2527, 0 1px #1d2527, 1px 0 #1d2527, 0 -1px #1d2527;
     font-size: 2.4rem;
     font-weight: 400;
     text-align: center;
+}
+
+.main-img .orange {
+    text-shadow: -0.5px 0 #31393c, 0 0.5px #31393c, 0.5px 0 #31393c, 0 -0.5px #31393c;
 }
 
 /* Index Testimonials Section */
