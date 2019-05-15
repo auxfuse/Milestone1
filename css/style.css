@@ -168,7 +168,7 @@ figure {
     font-family: 'oswald', sans-serif;
     color: #ced4da;
     margin-top: 20px;
-    padding: 0 auto;
+    padding: 15px;
 }
 
 .owner-details p::after {
@@ -191,7 +191,6 @@ figure {
     text-align: center;
     color: #ff6e38;
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) , rgba(255, 255, 255, 0.1));
-    padding: auto;
 }
 
 .amenities-list {
@@ -271,7 +270,6 @@ figure {
     text-align: center;
     color: #ff6e38;
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) , rgba(255, 255, 255, 0.1));
-    padding: auto;
 }
 
 .coach-bio p {
