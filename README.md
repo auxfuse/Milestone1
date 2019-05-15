@@ -35,18 +35,17 @@ a Merchandise store, interactive Video Tours, and Online bookings & payments
 
 
 ### Technologies Used.
-* HTML
-* CSS
-* Bootstrap Framework
-* PyCharm IDE
-* Bash
-* Ubuntu
-* Git
-* Github
-* TinyJPG.com
-* Google Chrome Developer Tools
-* Eye Dropper (Color Picker) Open Source Google Chrome Extension
-* Some Imported Javascript & JQuery for the Modal
+* HTML ~ main Language used to structure the individual pages of the website.
+* CSS ~ styling language used to format and visually build upon the accompanying HTML.
+* <a href="https://getbootstrap.com/"> Bootstrap Framework</a> ~ Used as the core structuring layout building blocks of the website, ensuring mobile-frist design and responsive size display.
+* <a href="https://www.jetbrains.com/pycharm/">PyCharm IDE</a> ~ PyCharm was used as the preferred IDE for this project.
+* PyCharm built-in Terminal ~ Used to commit to local repository and further push to Github Repo ensuring version controlling of the project build.
+* <a href="https://git-scm.com/">Git</a> ~ Installed on local device and integrated to PyCharm as a Plugin to enable version controlling.
+* <a href="https://github.com/auxfuse/Milestone1">Github</a> ~ Used to host the deployed website and repository of all previous versions of the build.
+* <a href="https://tinyjpg.com/">TinyJPG.com</a> ~ Used to compress images used throughout the website without affecting image quality/integrity.
+* Google Chrome Developer Tools ~ Used as the core test phase throughout the project build life, testing the responsiveness of elements and CSS visuals.
+* <a href="http://eye-dropper.kepi.cz/">Eye Dropper (Color Picker)</a> ~ Open Source Google Chrome Extension used to obtain hexadecimal/rgba/hsl values of colours. Built by Kepi (<a href="https://github.com/kepi">Kepi's Github</a>)
+* Some <a href="https://getbootstrap.com/docs/4.3/getting-started/introduction/#js">Imported Javascript & JQuery</a> ~ for the Modal and Responsive Navbar expand & collapse functionality.
 
 ### Deployment.
 
