@@ -5,11 +5,14 @@
 ***
 
 ### What does it do and what does it need to fulfil?
-   This project uses skills learned from the first 3 modules of the Full Stack Developer Course, (HTML, CSS, &
-   User Centric Frontend Development), to build a mobile-first responsive website for a local Gym, "One Last Rep".
+This Milestone project creation is the culmination of learning and study from the first three modules of the Full Stack Developer
+Course, HTML, CSS & User Centric Frontend Development, to build a mobile-first fully responsive website for a local startup Gym,
+"One Last Rep."
 
-   This website creates a centered point for non-members and members alike to view the facilities and amenities at play,
-   the classes available, the wide facet of coaching and contact the Gym directly through a contact form.
+![alt text](https://github.com/auxfuse/Milestone1/blob/master/images/olrfitnesslogo.png "One Last Rep Logo")
+
+This website creates a centered point for non-members and members alike to view the facilities and amenities at play,
+the classes available, the wide facet of coaching and contact the Gym directly through a contact form.
 
 ### Functionality of Project.
 
