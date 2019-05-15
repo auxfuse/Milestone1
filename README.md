@@ -1,7 +1,7 @@
 # Milestone Project 1
 ***
 
-## <span style="color:orange">_One Last Rep </span>Responsive Website Project_
+## _One Last Rep Responsive Website Project_
 ***
 
 ### What does it do and what does it need to fulfil?
@@ -38,11 +38,11 @@ a Merchandise store, interactive Video Tours, and Online bookings & payments
 * HTML
 * CSS
 * Bootstrap Framework
+* PyCharm IDE
 * Bash
 * Ubuntu
 * Git
 * Github
-* PyCharm IDE
 * TinyJPG.com
 * Google Chrome Developer Tools
 * Eye Dropper (Color Picker) Open Source Google Chrome Extension
