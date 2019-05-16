@@ -52,7 +52,25 @@ a Merchandise store, interactive Video Tours, and Online bookings & payments
 Website was created in PyCharm IDE. PyCharm is an Integrated Development Environment developed by JetBrains. I choose PyCharm
 as my chosen IDE due to the enhanced programming capabilities therein and for further exposure to a non-browser related IDE.
 Through PyCharm a local Git Repository was used, as was Github to ensure Version Controlling of the website was present from
-the inception through to finalisation and deployment. <i>Deployment details go here.......</i>
+the inception through to finalisation and deployment.
+
+Cloning & Details:
+
+In order to clone the website:
+* Select the Repository from the Github Dashboard.
+* Click on the "Clone or download" green button located above and to the right of the File Structure table.
+* Click on the "clipboard" icon to the right of the Git URL to copy the web URL of the Clone.
+* 
+* 
+* 
+* 
+
+In order to deploy the website to Github pages, I:
+* Selected the Repository from the Github Dashboard.
+* Navigated to <i>"Settings"</i> and to the <i>"Github Pages"</i> Section.
+* From the <i>"Source"</i> section, clicked on the dropdown and selected "Master Branch" from the associated List.
+* Once <i>"Master Branch"</i> was selected, the page auto-refreshed, with a ribbon display detailing <i>"Github Pages source saved"</i> indicating the success of the deployment.
+* The link to the website was found under the <i>"Github Pages"</i> section, with a ribbon notification stating:<br> __"Your site is published at <a href="https://auxfuse.github.io/Milestone1/">https://auxfuse.github.io/Milestone1/</a>"__
 
 
 ### Testing.
