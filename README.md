@@ -15,7 +15,6 @@ This website creates a centered point for non-members and members alike to view 
 the classes available, the wide facet of coaching and contact the Gym directly through a contact form.
 
 ### Functionality of Project.
-
 The project utilises the Bootstrap Framework to create a multi-page fully responsive, Mobile-First approach Website. It is completely
 within the scope of the guidelines of the milestone requirements and does not populate any back-end functions, nor
 has any custom javascript been used. With that in mind please note that although this website contains two "forms", one fulfilling a
@@ -48,7 +47,6 @@ a Merchandise store, interactive Video Tours, and Online bookings & payments
 * Some <a href="https://getbootstrap.com/docs/4.3/getting-started/introduction/#js">Imported Javascript & JQuery</a> ~ for the Modal and Responsive Navbar expand & collapse functionality.
 
 ### Deployment.
-
 Website was created in PyCharm IDE. PyCharm is an Integrated Development Environment developed by JetBrains. I choose PyCharm
 as my chosen IDE due to the enhanced programming capabilities therein and for further exposure to a non-browser related IDE.
 Through PyCharm a local Git Repository was used, as was Github to ensure Version Controlling of the website was present from
@@ -77,25 +75,64 @@ In order to deploy the website to Github pages, I:
 
 ### User Experience Design
 ***
-To read the full User Experience Design report please click here: 
+To read the full User Experience Design report please click <a href="UXD/UXD.pdf">Here</a>.
+
+>The information that follows is a synopsis of the attached full report:
+
+
+##### <i>Scope</i>
+The client wanted a professionally built, clean and customer driven website, promoting the Gym amenities and available assets to
+attract new customers to the current clientele base, become a staple competitor in the current marketplace against rival Gyms, and
+promote social media engagement potentially broadcasting to a wider audience than just the local communities. On the basis of this requirement
+wireframes were created, simulating the differences in fully responsive mobile-first design, that the website could benefit from due to the ever rising
+popularity & trend of smartphones and tablets. The website was to feature a host of focal points such as, individualised showcase sections for the
+coaches, classes & amenities available to users at the Gym. A contact form for the user to submit surrounding any questions/queries they may have and a
+secondary "Free" introductory class pop-up Modal form for booking.
+
+##### <i>Strategy</i>
+In following with this custom brief instead of the brief set out by the milestone of creating a website for a band, a meeting was coordinated between
+myself and the owner of the gym to exchange vital information & assets to be hosted on the website. Several requirement were concluded through that meeting:
+
+* the primary target audience for the business was people who wanted to lose weight, get fit/compete or change gyms from rival competitors.
+
+* create demand for general class retention and bespoke training sessions such as, Personal Training.
+
+* creating a Culturally appropriate engaging website.
+
+* why would a user/customer choose One Last Rep as their Gym?
+
+* what creates a good Gym Experience?
+
+* what does the user expect from the website?
+
+__Each of the above strategies have the associated strategy attached to them in the UXD report.__
+
+A priority Matrix was drafted from the culmination of scores decided upon from the following Opportunity/Problems Table.
+
+Opportunity/Problems | Importance | Viability/Feasibility
+--- | --- | ---
+*A. Creation of Online Presence* | 5 | 5
+*B. Merchandise Sales* | 1 | 2
+*C. Promote Social Media* | 4 | 5
+*D. Increase Member Sign-ups* | 5 | 4
+*E. Promote Personal Training Initiative* | 3 | 5
+*F. Gym history promoting competitive status* | 2 | 5
+
+![alt text](readmeimages/prioritymatrix.PNG "Priority Matrix UXD")
+
+##### <i>Strategy</i>
+
+
+
+##### <i>Strategy</i>
+
+
 
 ### What changed after UXD (user design experience) phase.
    Originally planned to have the timetable viewable as one of the webpages....however, after some consideration
    decided to have it as a clickable hyperlink to open in a new window to be viewed, saved or downloaded.
 
->Top 4 Features we will be focusing on during our build (as per Value Matrix in Strategy Plane)
-
-Opportunity/Problems | Importance | Viability/Feasibility
---- | --- | ---
-*Creation of Online Presence* | 5 | 5
-*Increase Member Sign-ups* | 5| 4
-*Promote Personal Training Initiative* | 3 | 5
-*Creation of Social Media Presence* | 4 | 5
-
-
 ### Testing.
-
-
 
 
 ### Work based on other code.
