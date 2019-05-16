@@ -75,18 +75,9 @@ In order to deploy the website to Github pages, I:
 * Once <i>"Master Branch"</i> was selected, the page auto-refreshed, with a ribbon display detailing <i>"Github Pages source saved"</i> indicating the success of the deployment.
 * The link to the website was found under the <i>"Github Pages"</i> section, with a ribbon notification stating:<br> __"Your site is published at <a href="https://auxfuse.github.io/Milestone1/">https://auxfuse.github.io/Milestone1/</a>"__
 
-
-### Testing.
-
-<i>Talk about testing of each facet of each website and on what devices....talk about Chrome Dev Tools....
-Talk about hyperlinks testing & modal/CTAs etc. Talk about using Slack and other CI students to test the overall product.
-Talk about overriding user agent stylings inherited on some elements like, UL & strange padding, found during testing. </i>
-
-
-### Work based on other code.
-
-<i>Consider using modal from Whiskey drop page and fragment it to suit our requirements and detail here.....</i>
-
+### User Experience Design
+***
+To read the full User Experience Design report please click here: 
 
 ### What changed after UXD (user design experience) phase.
    Originally planned to have the timetable viewable as one of the webpages....however, after some consideration
@@ -100,3 +91,15 @@ Opportunity/Problems | Importance | Viability/Feasibility
 *Increase Member Sign-ups* | 5| 4
 *Promote Personal Training Initiative* | 3 | 5
 *Creation of Social Media Presence* | 4 | 5
+
+
+### Testing.
+
+
+
+
+### Work based on other code.
+
+<i>Consider using modal from Whiskey drop page and fragment it to suit our requirements and detail here.....</i>
+
+
