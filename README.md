@@ -58,12 +58,16 @@ Cloning & Details:
 
 In order to clone the website:
 * Select the Repository from the Github Dashboard.
-* Click on the "Clone or download" green button located above and to the right of the File Structure table.
-* Click on the "clipboard" icon to the right of the Git URL to copy the web URL of the Clone.
-* 
-* 
-* 
-* 
+* Click on the <i>"Clone or download"</i> green button located above and to the right of the File Structure table.
+* Click on the <i>"clipboard icon"</i> to the right of the Git URL to copy the web URL of the Clone. 
+###### (See next image, highlighted in orange)
+<i>paste image of snap from github</i>
+
+
+* Open your preferred Integrated Development Environment (IDE) and navigate to the terminal window.
+* Change the directory to where you want to clone the repository too. (In the case of PyCharm the directory path can be found through the <i>"Navigate"</i> tab).
+* Paste the Git URL copied from above and click <i>"Ok"</i>. (Again in the case of PyCharm once you click <i>"clone"</i>, Git Root mapping will be automatically set to the project Root directory). 
+
 
 In order to deploy the website to Github pages, I:
 * Selected the Repository from the Github Dashboard.
