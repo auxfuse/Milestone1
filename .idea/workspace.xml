@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5df406b-7b5d-4de0-a44f-eed8d37a993d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,8 +28,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="374">
-                <caret line="67" column="155" selection-start-line="67" selection-start-column="155" selection-end-line="67" selection-end-column="155" />
+              <first_editor relative-caret-position="221">
+                <caret line="64" column="108" selection-start-line="64" selection-start-column="108" selection-end-line="64" selection-end-column="108" />
               </first_editor>
               <second_editor />
             </state>
@@ -64,7 +63,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="1141" />
     <option name="height" value="1047" />
@@ -86,6 +85,11 @@
               <item name="Milestone1" type="b2602c69:ProjectViewProjectNode" />
               <item name="Milestone1" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Milestone1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Milestone1" type="462c0819:PsiDirectoryNode" />
+              <item name="readmeimages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -167,7 +171,7 @@
       <workItem from="1557698230427" duration="3297000" />
       <workItem from="1557782729669" duration="3302000" />
       <workItem from="1557953079690" duration="9130000" />
-      <workItem from="1558023500443" duration="6036000" />
+      <workItem from="1558023500443" duration="6304000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1555161008715</created>
@@ -187,7 +191,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="247806000" />
+    <option name="totallyTimeSpent" value="248074000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -203,7 +207,7 @@
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978355" visible="true" weight="0.123667374" />
-      <window_info active="true" id="Structure" order="1" sideWeight="0.5021645" side_tool="true" visible="true" weight="0.123667374" />
+      <window_info id="Structure" order="1" sideWeight="0.5021645" side_tool="true" visible="true" weight="0.123667374" />
       <window_info id="Favorites" order="2" sideWeight="0.5021645" side_tool="true" weight="0.5815565" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -216,7 +220,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5021322" side_tool="true" weight="0.2156013" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4978678" visible="true" weight="0.24918744" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4978678" visible="true" weight="0.24918744" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32827735" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -355,8 +359,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="374">
-            <caret line="67" column="155" selection-start-line="67" selection-start-column="155" selection-end-line="67" selection-end-column="155" />
+          <first_editor relative-caret-position="221">
+            <caret line="64" column="108" selection-start-line="64" selection-start-column="108" selection-end-line="64" selection-end-column="108" />
           </first_editor>
           <second_editor />
         </state>

@@ -61,8 +61,7 @@ In order to clone the website:
 * Click on the <i>"Clone or download"</i> green button located above and to the right of the File Structure table.
 * Click on the <i>"clipboard icon"</i> to the right of the Git URL to copy the web URL of the Clone. 
 ###### (See next image, highlighted in orange)
-<i>paste image of snap from github</i>
-
+![alt text](readmeimages/clone.PNG "Snapshot of Clone from Github")
 
 * Open your preferred Integrated Development Environment (IDE) and navigate to the terminal window.
 * Change the directory to where you want to clone the repository too. (In the case of PyCharm the directory path can be found through the <i>"Navigate"</i> tab).
