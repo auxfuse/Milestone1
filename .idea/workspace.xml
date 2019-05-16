@@ -29,8 +29,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="340">
-                <caret line="146" column="66" selection-start-line="146" selection-start-column="66" selection-end-line="146" selection-end-column="66" />
+              <first_editor relative-caret-position="408">
+                <caret line="156" lean-forward="true" selection-start-line="156" selection-end-line="156" />
               </first_editor>
               <second_editor />
             </state>
@@ -172,7 +172,7 @@
       <workItem from="1557698230427" duration="3297000" />
       <workItem from="1557782729669" duration="3302000" />
       <workItem from="1557953079690" duration="9130000" />
-      <workItem from="1558023500443" duration="11074000" />
+      <workItem from="1558023500443" duration="11534000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1555161008715</created>
@@ -192,7 +192,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="252844000" />
+    <option name="totallyTimeSpent" value="253304000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -205,7 +205,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978355" visible="true" weight="0.036247335" />
       <window_info id="Structure" order="1" sideWeight="0.5021645" side_tool="true" visible="true" weight="0.036247335" />
@@ -360,8 +359,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="340">
-            <caret line="146" column="66" selection-start-line="146" selection-start-column="66" selection-end-line="146" selection-end-column="66" />
+          <first_editor relative-caret-position="408">
+            <caret line="156" lean-forward="true" selection-start-line="156" selection-end-line="156" />
           </first_editor>
           <second_editor />
         </state>
