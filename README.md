@@ -44,7 +44,8 @@ a Merchandise store, interactive Video Tours, and Online bookings & payments
 * <a href="https://tinyjpg.com/">TinyJPG.com</a> ~ Used to compress images used throughout the website without affecting image quality/integrity.
 * Google Chrome Developer Tools ~ Used as the core test phase throughout the project build life, testing the responsiveness of elements and CSS visuals.
 * <a href="http://eye-dropper.kepi.cz/">Eye Dropper (Color Picker)</a> ~ Open Source Google Chrome Extension used to obtain hexadecimal/rgba/hsl values of colours. Built by Kepi (<a href="https://github.com/kepi">Kepi's Github</a>)
-* Some <a href="https://getbootstrap.com/docs/4.3/getting-started/introduction/#js">Imported Javascript & JQuery</a> ~ for the Modal and Responsive Navbar expand & collapse functionality.
+* Some <a href="https://getbootstrap.com/docs/4.3/getting-started/introduction/#js">Imported Javascript & JQuery</a> ~ For the Modal and Responsive Navbar expand & collapse functionality.
+* Microsoft Excel ~ Used for the Creation of Wireframes.
 
 ### Deployment.
 Website was created in PyCharm IDE. PyCharm is an Integrated Development Environment developed by JetBrains. I choose PyCharm
@@ -120,17 +121,37 @@ Opportunity/Problems | Importance | Viability/Feasibility
 
 ![alt text](readmeimages/prioritymatrix.PNG "Priority Matrix UXD")
 
-##### <i>Strategy</i>
+##### <i>Structure</i>
+The overall structure of the website will be a conventional __"Family Tree"__. It will consist of 5 page, a modal and several links to external
+points of interest, i.e. Social Media. The Navbar on larger device widths will position itself at the top of the page, even when scrolling, and read
+the title of each page from left to right. The title of the page currently active will highlight <i>"orange"</i> to notify the user of their location.
+The navbar will collapse to a <i>"hamburger"</i> icon on smaller device, that when clicked will expand to show the underlying menu.
 
+As is commonplace amongst industry standards, the official corporate branding Logo will be positioned to the left of the navbar and will also act as 
+click to return to the <i>"Home"</i> page. Each page heading when hovered on will highlight to visualise to the user that this is a <i>"clickable"</i> action. Consistency
+of the website was kept to a premium standard with constant call backs to the Logo colour scheme of Orange/Black/White/Navy and a recurring font.
 
+A call-to-action (CTA) button producing a <i>"Modal form"</i> was utilised in the footer. In tandem with the <i>"contact"</i> form housed on the <i>"Contact"</i> page of the website,
+each field of these forms are validated for specific inputs, i.e. Phone Number, requires numerical entry, and each field has been set to <i>"required"</i> before allowing
+the user to submit.
 
-##### <i>Strategy</i>
+A <i>"Carousel"</i> was used in the <i>"About"</i> page to showcase imagery of the Gym amenities. By using this feature we have instantly preserved vital space on
+both smaller & larger screen widths instead of using a Gallery of images, striving for a less-is-more approach.
 
+##### <i>Skeleton</i>
+As described previously in the Scope section, wireframes were created to visualise the differences between large versus small screen widths and how the website
+would respond to same. These wireframes were created through Microsoft Excel, and saved as .PNG. These were used as the concept design for the site, predetermining
+the flow, colour scheme, fonts, sections and functionality. The side-by-side comparison of the Wireframes are produced in the full UXD report, with an example of each
+device size coming up next:
+* Larger Device View
+![alt text](UXD/Skeleton Plane/IndexWireframe-Desktop-Tablet.PNG "IndexWireframe-Desktop-Tablet")
+* Smaller Device View
+![alt text](UXD/Skeleton Plane/IndexWireframe-Mobile.PNG "IndexWireframe-Mobile")
 
+*Please click __<a href="https://github.com/auxfuse/Milestone1/tree/master/UXD/Skeleton%20Plane">Here</a>__ to view the complete list of Wireframes created.*
 
-### What changed after UXD (user design experience) phase.
-   Originally planned to have the timetable viewable as one of the webpages....however, after some consideration
-   decided to have it as a clickable hyperlink to open in a new window to be viewed, saved or downloaded.
+These wireframes templates do not 100% reflect the end result of the project and were only used as the original concept design to get started and for engagement with
+the customer. To see the list of changes implemented on the website versus the original concept please see the full __<a href="UXD/UXD.pdf">User Experience Design</a>__ report.
 
 ### Testing.
 
