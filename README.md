@@ -46,6 +46,7 @@ a Merchandise store, interactive Video Tours, and Online bookings & payments
 * <a href="http://eye-dropper.kepi.cz/">Eye Dropper (Color Picker)</a> ~ Open Source Google Chrome Extension used to obtain hexadecimal/rgba/hsl values of colours. Built by Kepi (<a href="https://github.com/kepi">Kepi's Github</a>)
 * Some <a href="https://getbootstrap.com/docs/4.3/getting-started/introduction/#js">Imported Javascript & JQuery</a> ~ For the Modal and Responsive Navbar expand & collapse functionality.
 * Microsoft Excel ~ Used for the Creation of Wireframes.
+* <a href="https://www.pexels.com/">Pexels</a> ~ Online Free stock imagery. Used for providing 2 out of the 3 testimonal images and the Hero image on the Home page.
 
 ### Deployment.
 Website was created in PyCharm IDE. PyCharm is an Integrated Development Environment developed by JetBrains. I choose PyCharm
@@ -173,18 +174,24 @@ As a considerable amount of time was dedicated to trying to fix it, and with no 
 only current error I have come across on the project. 
 
 
-During my Mid-Project Review with my Mentor, it was suggested that my Media Queries be restructured as I had utilised "Max-widths" in my CSS, as this did not quite fit the brief
-of mobile-first response. To combat this, I started by re-arranging my code to utilise the media queries from smallest to largest. Doing this greatly helped my understanding of the term
+During my Mid-Project Review with my Mentor, it was suggested that my Media Queries be restructured as I had utilised ```Max-widths``` in my CSS, as this did not quite fit the brief
+of mobile-first response. To combat this, I started by re-arranging my code to utilise the media queries from smallest to largest, removing any ```Max-widths``` specified in the stylesheet. Doing this greatly helped my understanding of the term
 mobile-first and in doing so my code looks and functions in the correct flow and manner.
 * Link to repo commit before restructure: <a href="https://github.com/auxfuse/Milestone1/tree/0a60fb53370c91c0688bd9a00bf0a867fc42f00c/css">CSS</a>
 * Link to repo commit after restructure: <a href="https://github.com/auxfuse/Milestone1/blob/244c5666c8f8ff33c0b3f21b88ee23c2b2312046/css/style.css">CSS file after Restructure</a>
+
+Other additional feedback from my mentor were to:
+* remove the list-item icon that I originally had appearing after the Coaches Expertise sections list items, as this did not quite fit the overall aesthetic and generally provided a cluttered Design experience. <i>~ icon since removed</i>.
+
+* lighten the call-to-action dark text to provide a more striking & eye-catching response as was the original intention for this CTA, to boost metrics for the Free introductory classes. <i>~ colour shade changed to ```#7f7f7f``` same as
+unhovered/inactive state colours of the Navbar headings/social media icons etc</i>.
 
 Regular use of the #peer-code-review channel in Slack was incredibly beneficial to me as a developer allowing others to test the website and critique same.
 This would highlight problem areas, non-functioning elements and overall critique enabling me to work and strive towards a better end product. 
 
 Also, use of the <a href="https://validator.w3.org/">W3C Validator</a> assisted in ensuring my code was up to professional grade standards and structured correctly. It highlighted several inconsistencies,
 such as:
-* ```css padding: auto``` appearing in my CSS ~ since removed.
+* ```padding: auto``` appearing in my CSS ~ since removed.
 * My modal having a mismatching ```ariadescribedby``` label ~ since rectified.
 * And a quirky error caused by the character set emoji "<3" to simulate a heart on one of the testimonials as detailed by the user. ~ no fix necessary as this is the language used by the user to describe a "heart" emoji.
 
@@ -195,8 +202,8 @@ colleagues and employees.
 
 ### Work based on other code.
 
-* The modal that is present on all pages through the Footer Call to action was based from the course "Whiskey Drop" Mini-project. This was heavily modified and styled to fit and suit the needs
-of my Milestone project, with "Email" as the only field in the form set remaining similar.
+* The modal that is present on all pages through the Footer Call-to-action button, was based from the course "Whiskey Drop" Mini-project. This was heavily modified and styled to fit and suit the needs
+of my Milestone project, with "Email" as the only field in the formset remaining similar.
 
 * The border radius CSS code used on the testimonial images on the Home page weas researched and learned for use through <a href="https://9elements.github.io/fancy-border-radius/">Fancy Border Radius</a> created by Mirko & Nils.
 ...Mirko <a href="https://github.com/mirko314">Github</a> & Nils <a href="https://twitter.com/supremebeing09">Twitter</a>.
@@ -206,6 +213,18 @@ of my Milestone project, with "Email" as the only field in the form set remainin
 * <a href="https://realfavicongenerator.net/">RealFaviconGenerator</a> was used to compress and produce the favicon.ico file and the code to implement the favicon was researched and found through
 <a href="https://stackoverflow.com/questions/11893478/add-favicon-to-website">Stack Overflow</a>. 
 
-### Special Thanks
+### Special Thanks & Acknowledgments
 
-<i>Credit those who helped with problem solving and critique.......credit customer for providing assets.....mentor etc etc
+* To my mentor, <a href="https://github.com/5pence">Spencer Barriball</a>, for incredible mentoring from suggesting the use of PyCharm as my IDE, to the strategy to use for the project, and for assisting during my project review with examples on how
+ to structure Media Queries & what makes a good UX experience.
+
+* To <a href="https://github.com/AJGreaves">Anna Greaves</a>, current channel lead for User Centric Frontend. Who has assisted in many back & forth conversations regarding questions and providing exceptional answers to all of us, provided critique through the #peer-review-channel & direct messaging, 
+hosted incredibly structured User Centric Conference calls on a very frequent basis, and created a very easy to follow and understand application on the <a href="https://ajgreaves.github.io/bootstrap-grid-demo/">Bootstrap Grid</a>.
+
+* To the Owner of One Last Rep, Dave O' Keeffe, for allowing me to undertake his core business process, assets and overall time with meetings and queries surrounding same and use them as the basis and core brief for this project;
+<a href="https://auxfuse.github.io/Milestone1/index.html">One Last Rep Website</a>
+
+* To my fellow students in Code Institute and to the staff and mentors who converse & frequent Slack regularly with their own queries/ideas & opinions, and assisting with mine, to help me better understand all facets of this course!
+
+##### Disclaimer:
+This project was created for educational use.
