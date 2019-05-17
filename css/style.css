@@ -239,6 +239,15 @@ figure {
     margin: 20px auto;
 }
 
+/* Owner & Coaches Name headers on About page & Coaches page */
+.coach-name, .owner-name h3 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: #ff6e38;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) , rgba(255, 255, 255, 0.1));
+    margin: 10px 0 20px 0;
+}
+
 /* Coaches Profile Section */
 
 .coaches-profiles {
@@ -263,13 +272,6 @@ figure {
     text-decoration: underline;
     text-align: center;
     padding-top: 10px;
-}
-
-.coach-name h3 {
-    font-family: 'Oswald', sans-serif;
-    text-align: center;
-    color: #ff6e38;
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) , rgba(255, 255, 255, 0.1));
 }
 
 .coach-bio p {
