@@ -92,11 +92,12 @@ secondary "Free" introductory class pop-up Modal form for booking.
 
 ##### <i>Strategy</i>
 In following with this custom brief instead of the brief set out by the milestone of creating a website for a band, a meeting was coordinated between
-myself and the owner of the gym to exchange vital information & assets to be hosted on the website. Several requirement were concluded through that meeting:
+myself and the owner of the gym to exchange vital information & assets to be hosted on the website. Several requirements were concluded through that meeting:
 
-* the primary target audience for the business was people who wanted to lose weight, get fit/compete or change gyms from rival competitors.
+* the primary target audience for the business was people who wanted to lose weight, get fit/compete or change gyms from rival competitors; and how do we interact
+with this audience?
 
-* create demand for general class retention and bespoke training sessions such as, Personal Training.
+* to create demand for general class retention and bespoke training sessions such as, Personal Training.
 
 * creating a Culturally appropriate engaging website.
 
@@ -158,9 +159,44 @@ the customer. To see the list of changes implemented on the website versus the o
 
 ### Testing.
 
+Throughout the build-life of the project, regular testing was conducted through the use of Chrome Developer tools, (being my primary browser). 
+Starting from the mobile-first side of things each element on each page was tested to ensure it functions as expected. Using the device selector through the
+dev tools, each device was selected to achieve the testing needed. If and when I encountered an error, I would first try to alleviate that error through the 
+accompanying elements panel, and if successful replicate the fix in my IDE. If an error could not be fixed, my focus would turn to Slack and my fellow Code Institute
+students for help with identifying the problem and advice for tackling same.
+
+At the moment the website has been tested on Internet Explorer, Google Chrome, Microsoft Edge & Mozilla Firefox. The webiste works and functions as expected on both Google Chrome and
+Mozilla Firefox, however it has major functional flaw in the "Carousel" implemented on the "About" page on Internet Explorer. This is a known issue amongst the community
+of Bootstrap users and apparently has no webkit fix that I have been able to find and implement. 
+The flaw stretches the center image and distorts it to the edge of the carousel container and ultimately creating awful User Experience for those on Internet Explorer. 
+As a considerable amount of time was dedicated to trying to fix it, and with no clear fix in sight, I decided to leave it for now and detail it in the README as the 
+only current error I have come across on the project. 
+
+
+During my Mid-Project Review with my Mentor, it was suggested that my Media Queries be restructured as I had utilised "Max-widths" in my CSS, as this did not quite fit the brief
+of mobile-first response. To combat this, I started by re-arranging my code to utilise the media queries from smallest to largest. Doing this greatly helped my understanding of the term
+mobile-first and in doing so my code looks and functions in the correct flow and manner.
+* Link to repo commit before restructure: <a href="https://github.com/auxfuse/Milestone1/tree/0a60fb53370c91c0688bd9a00bf0a867fc42f00c/css">CSS</a>
+* Link to repo commit after restructure: <a href="https://github.com/auxfuse/Milestone1/blob/244c5666c8f8ff33c0b3f21b88ee23c2b2312046/css/style.css">CSS file after Restructure</a>
+
+Regular use of the #peer-code-review channel in Slack was incredibly beneficial to me as a developer allowing others to test the website and critique same.
+This would highlight problem areas, non-functioning elements and overall critique enabling me to work and strive towards a better end product. 
+
+Also, use of the <a href="https://validator.w3.org/">W3C Validator</a> assisted in ensuring my code was up to professional grade standards and structured correctly. It highlighted several inconsistencies,
+such as:
+* "padding: auto" appearing in my CSS ~ since removed.
+* My modal having a mismatching "ariadescribedby" label ~ since rectified.
+* And a quirky error caused by the character set emoji "<3" to simulate a heart on one of the testimonials as detailed by the user. ~ no fix necessary as this is the language used by the user to describe a "heart" emoji.
+
+
+The final testing phase was for the customer to see the almost finished product. The website was demoed to them and was received positively by the Customer and their respective
+colleagues and employees. 
+
 
 ### Work based on other code.
 
 <i>Consider using modal from Whiskey drop page and fragment it to suit our requirements and detail here.....</i>
 
+### Special Thanks
 
+<i>Credit those who helped with problem solving and critique.......credit customer for providing assets.....mentor etc etc
