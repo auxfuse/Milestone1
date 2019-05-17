@@ -165,7 +165,7 @@ dev tools, each device was selected to achieve the testing needed. If and when I
 accompanying elements panel, and if successful replicate the fix in my IDE. If an error could not be fixed, my focus would turn to Slack and my fellow Code Institute
 students for help with identifying the problem and advice for tackling same.
 
-At the moment the website has been tested on Internet Explorer, Google Chrome, Microsoft Edge & Mozilla Firefox. The website works and functions as expected on Google Chrome, Microsoft Edge and
+At the moment the website has been tested on Internet Explorer, Google Chrome, Microsoft Edge, Opera & Mozilla Firefox. The website works and functions as expected on Google Chrome, Microsoft Edge, Opera and
 Mozilla Firefox, however it has major functional flaw in the "Carousel" implemented on the "About" page on Internet Explorer. This is a known issue amongst the community
 of Bootstrap users and apparently has no webkit fix that I have been able to find and implement. 
 The flaw stretches the center image and distorts it to the edge of the carousel container and ultimately creating awful User Experience for those on Internet Explorer. 
