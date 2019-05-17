@@ -159,7 +159,7 @@ These wireframes templates do not 100% reflect the end result of the project and
 the customer. To see the list of changes implemented on the website versus the original concept please see the full __<a href="UXD/UXD.pdf">User Experience Design</a>__ report.
 
 ### Testing.
-
+***
 Throughout the build-life of the project, regular testing was conducted through the use of Chrome Developer tools, (being my primary browser). 
 Starting from the mobile-first side of things each element on each page was tested to ensure it functions as expected. Using the device selector through the
 dev tools, each device was selected to achieve the testing needed. If and when I encountered an error, I would first try to alleviate that error through the 
@@ -214,7 +214,7 @@ of my Milestone project, with "Email" as the only field in the formset remaining
 <a href="https://stackoverflow.com/questions/11893478/add-favicon-to-website">Stack Overflow</a>. 
 
 ### Special Thanks & Acknowledgments
-
+***
 * To my mentor, <a href="https://github.com/5pence">Spencer Barriball</a>, for incredible mentoring from suggesting the use of PyCharm as my IDE, to the strategy to use for the project, and for assisting during my project review with examples on how
  to structure Media Queries & what makes a good UX experience.
 
