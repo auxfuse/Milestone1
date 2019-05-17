@@ -165,7 +165,7 @@ dev tools, each device was selected to achieve the testing needed. If and when I
 accompanying elements panel, and if successful replicate the fix in my IDE. If an error could not be fixed, my focus would turn to Slack and my fellow Code Institute
 students for help with identifying the problem and advice for tackling same.
 
-At the moment the website has been tested on Internet Explorer, Google Chrome, Microsoft Edge & Mozilla Firefox. The webiste works and functions as expected on both Google Chrome and
+At the moment the website has been tested on Internet Explorer, Google Chrome, Microsoft Edge & Mozilla Firefox. The website works and functions as expected on Google Chrome, Microsoft Edge and
 Mozilla Firefox, however it has major functional flaw in the "Carousel" implemented on the "About" page on Internet Explorer. This is a known issue amongst the community
 of Bootstrap users and apparently has no webkit fix that I have been able to find and implement. 
 The flaw stretches the center image and distorts it to the edge of the carousel container and ultimately creating awful User Experience for those on Internet Explorer. 
@@ -184,8 +184,8 @@ This would highlight problem areas, non-functioning elements and overall critiqu
 
 Also, use of the <a href="https://validator.w3.org/">W3C Validator</a> assisted in ensuring my code was up to professional grade standards and structured correctly. It highlighted several inconsistencies,
 such as:
-* "padding: auto" appearing in my CSS ~ since removed.
-* My modal having a mismatching "ariadescribedby" label ~ since rectified.
+* ```css padding: auto``` appearing in my CSS ~ since removed.
+* My modal having a mismatching ```ariadescribedby``` label ~ since rectified.
 * And a quirky error caused by the character set emoji "<3" to simulate a heart on one of the testimonials as detailed by the user. ~ no fix necessary as this is the language used by the user to describe a "heart" emoji.
 
 
@@ -195,7 +195,16 @@ colleagues and employees.
 
 ### Work based on other code.
 
-<i>Consider using modal from Whiskey drop page and fragment it to suit our requirements and detail here.....</i>
+* The modal that is present on all pages through the Footer Call to action was based from the course "Whiskey Drop" Mini-project. This was heavily modified and styled to fit and suit the needs
+of my Milestone project, with "Email" as the only field in the form set remaining similar.
+
+* The border radius CSS code used on the testimonial images on the Home page weas researched and learned for use through <a href="https://9elements.github.io/fancy-border-radius/">Fancy Border Radius</a> created by Mirko & Nils.
+...Mirko <a href="https://github.com/mirko314">Github</a> & Nils <a href="https://twitter.com/supremebeing09">Twitter</a>.
+
+* <a href="https://autoprefixer.github.io/">Autoprefixer CSS Online</a> produced the webkit ```-o-object-fit: contain``` vendor prefix needed for the Carousel images to work on the Opera Browser.
+
+* <a href="https://realfavicongenerator.net/">RealFaviconGenerator</a> was used to compress and produce the favicon.ico file and the code to implement the favicon was researched and found through
+<a href="https://stackoverflow.com/questions/11893478/add-favicon-to-website">Stack Overflow</a>. 
 
 ### Special Thanks
 

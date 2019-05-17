@@ -29,11 +29,18 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="510">
-                <caret line="199" column="4" selection-start-line="199" selection-start-column="4" selection-end-line="199" selection-end-column="4" />
+              <first_editor relative-caret-position="578">
+                <caret line="205" column="11" selection-start-line="205" selection-start-column="11" selection-end-line="205" selection-end-column="11" />
               </first_editor>
               <second_editor />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-10455" />
           </provider>
         </entry>
       </file>
@@ -75,7 +82,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -97,6 +103,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -173,7 +180,8 @@
       <workItem from="1557782729669" duration="3302000" />
       <workItem from="1557953079690" duration="9130000" />
       <workItem from="1558023500443" duration="12059000" />
-      <workItem from="1558069759704" duration="4248000" />
+      <workItem from="1558069759704" duration="4377000" />
+      <workItem from="1558110969459" duration="2660000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1555161008715</created>
@@ -193,7 +201,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="258077000" />
+    <option name="totallyTimeSpent" value="260866000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -208,8 +216,8 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4963925" visible="true" weight="0.036247335" />
-      <window_info id="Structure" order="1" sideWeight="0.5036075" side_tool="true" visible="true" weight="0.036247335" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4949495" visible="true" weight="0.046908315" />
+      <window_info id="Structure" order="1" sideWeight="0.5050505" side_tool="true" visible="true" weight="0.046908315" />
       <window_info id="Favorites" order="2" sideWeight="0.5021645" side_tool="true" weight="0.5815565" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -221,8 +229,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.5026652" side_tool="true" visible="true" weight="0.24918744" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49733475" visible="true" weight="0.24918744" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50319827" side_tool="true" weight="0.24918744" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4968017" visible="true" weight="0.24918744" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32827735" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -348,9 +356,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -358,11 +363,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10455" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="510">
-            <caret line="199" column="4" selection-start-line="199" selection-start-column="4" selection-end-line="199" selection-end-column="4" />
+          <first_editor relative-caret-position="578">
+            <caret line="205" column="11" selection-start-line="205" selection-start-column="11" selection-end-line="205" selection-end-column="11" />
           </first_editor>
           <second_editor />
         </state>
