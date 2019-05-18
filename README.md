@@ -108,7 +108,7 @@ with this audience?
 
 * what does the user expect from the website?
 
-__Each of the above strategies have the associated strategy attached to them in the UXD report.__
+__Each of the above requirements have the associated strategy attached to them in the UXD report.__
 
 A priority Matrix was drafted from the culmination of scores decided upon from the following Opportunity/Problems Table.
 
@@ -230,3 +230,5 @@ hosted incredibly structured User Centric Conference calls on a very frequent ba
 
 ##### Disclaimer:
 This project was created for educational use. The Accreditation certificate was created by myself and is purely for design purposes only, and added to this project as a Mock-up example.
+
+_The .idea folder in my Github Repo is a default folder created by my preferred IDE PyCharm and can be ignored._
