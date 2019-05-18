@@ -147,11 +147,11 @@ the flow, colour scheme, fonts, sections and functionality. The side-by-side com
 device size coming up next:
 * Larger Device View
 
-![IndexWireframe-Desktop-Tablet](assets/UX/SkeletonPlane/IndexWireframe-Desktop-Tablet.PNG)
+![IndexWireframe-Desktop-Tablet](assets/ux/SkeletonPlane/IndexWireframe-Desktop-Tablet.PNG)
 
 * Smaller Device View
 
-![IndexWrieframe-Mobile](assets/UX/SkeletonPlane/IndexWireframe-Mobile.PNG)
+![IndexWrieframe-Mobile](assets/ux/SkeletonPlane/IndexWireframe-Mobile.PNG)
 
 *Please click __<a href="https://github.com/auxfuse/Milestone1/tree/master/assets/UX/SkeletonPlane">Here</a>__ to view the complete list of Wireframes created.*
 
