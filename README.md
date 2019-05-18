@@ -12,7 +12,7 @@ Course, HTML, CSS & User Centric Frontend Development, to build a mobile-first f
 ![One Last Rep Logo](assets/images/olrfitnesslogo.png)
 
 This website creates a centered point for non-members and members alike to view the facilities and amenities at play,
-the classes available, the wide facet of coaching and contact the Gym directly through a contact form.
+the classes available, the wide facet of coaching, and enabling the contact of the Gym directly through a contact form.
 
 ### Functionality of Project.
 The project utilises the Bootstrap Framework to create a multi-page fully responsive, Mobile-First approach Website. It is completely
@@ -50,7 +50,7 @@ a Merchandise store, interactive Video Tours, and Online bookings & payments
 
 ### Deployment.
 Website was created in PyCharm IDE. PyCharm is an Integrated Development Environment developed by JetBrains. I choose PyCharm
-as my chosen IDE due to the enhanced programming capabilities therein and for further exposure to a non-browser related IDE.
+as my preferred IDE due to the enhanced programming capabilities therein and for further exposure to a non-browser related development environment.
 Through PyCharm a local Git Repository was used, as was Github to ensure Version Controlling of the website was present from
 the inception through to finalisation and deployment.
 
@@ -110,7 +110,7 @@ with this audience?
 
 __Each of the above requirements have the associated strategy attached to them in the UXD report.__
 
-A priority Matrix was drafted from the culmination of scores decided upon from the following Opportunity/Problems Table.
+A priority Matrix was drafted from the culmination of scores decided upon from the following Opportunity/Problems Table:
 
 Opportunity/Problems | Importance | Viability/Feasibility
 --- | --- | ---
@@ -124,7 +124,7 @@ Opportunity/Problems | Importance | Viability/Feasibility
 ![Priority Matrix UXD](assets/readmeimages/prioritymatrix.PNG)
 
 ##### <i>Structure</i>
-The overall structure of the website will be a conventional __"Family Tree"__. It will consist of 5 page, a modal and several links to external
+The overall structure of the website will be a conventional __"Family Tree"__. It will consist of 5 pages, a modal and several links to external
 points of interest, i.e. Social Media. The Navbar on larger device widths will position itself at the top of the page, even when scrolling, and read
 the title of each page from left to right. The title of the page currently active will highlight <i>"orange"</i> to notify the user of their location.
 The navbar will collapse to a <i>"hamburger"</i> icon on smaller device, that when clicked will expand to show the underlying menu.
@@ -180,8 +180,8 @@ mobile-first and in doing so my code looks and functions in the correct flow and
 * Link to repo commit before restructure: <a href="https://github.com/auxfuse/Milestone1/tree/0a60fb53370c91c0688bd9a00bf0a867fc42f00c/css">CSS</a>
 * Link to repo commit after restructure: <a href="https://github.com/auxfuse/Milestone1/blob/244c5666c8f8ff33c0b3f21b88ee23c2b2312046/css/style.css">CSS file after Restructure</a>
 
-Other additional feedback from my mentor were to:
-* remove the list-item icon that I originally had appearing after the Coaches Expertise sections list items, as this did not quite fit the overall aesthetic and generally provided a cluttered Design experience. <i>~ icon since removed</i>.
+Other additional feedback from my mentor was to:
+* remove the list-item icon that I originally had appearing after the Coaches Expertise list-items, accompanying the list-item icon used before each line, as this did not quite fit the overall aesthetic and generally provided a cluttered Design experience. <i>~ icon since removed, leaving only the custom list style bullet before each line</i>.
 
 * lighten the call-to-action dark text to provide a more striking & eye-catching response as was the original intention for this CTA, to boost metrics for the Free introductory classes. <i>~ colour shade changed to ```#7f7f7f``` same as
 unhovered/inactive state colours of the Navbar headings/social media icons etc</i>.
@@ -191,9 +191,9 @@ This would highlight problem areas, non-functioning elements and overall critiqu
 
 Also, use of the <a href="https://validator.w3.org/">W3C Validator</a> assisted in ensuring my code was up to professional grade standards and structured correctly. It highlighted several inconsistencies,
 such as:
-* ```padding: auto``` appearing in my CSS ~ since removed.
-* My modal having a mismatching ```ariadescribedby``` label ~ since rectified.
-* And a quirky error caused by the character set emoji "<3" to simulate a heart on one of the testimonials as detailed by the user. ~ no fix necessary as this is the language used by the user to describe a "heart" emoji.
+* ```padding: auto``` appearing in my CSS <i>~ since removed</i>.
+* My modal having a mismatching ```ariadescribedby``` label <i>~ since rectified</i>.
+* And a quirky error caused by the character set emoji "<3" to simulate a heart on one of the testimonials as detailed by the user. <i>~ no fix necessary as this is the language used by the user to describe a "heart" emoji</i>.
 
 
 The final testing phase was for the customer to see the almost finished product. The website was demoed to them and was received positively by the Customer and their respective
