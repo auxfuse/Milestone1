@@ -650,6 +650,11 @@ footer {
     .owner-details {
         padding-right: 40px;
     }
+
+    /* Additional spacing from left edge of screen on amenities-list */
+    .amenities-list {
+        padding-left: 15px;
+    }
 }
 
 /* Large Tablet & Small Laptop Screen Size */
