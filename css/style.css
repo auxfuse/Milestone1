@@ -611,11 +611,6 @@ footer {
         width: 100%;
     }
 
-    .col-md-4 {
-        flex: 0 0 50%;
-        width: 33%;
-    }
-
     /* Coaches Section Margin Modifications */
     .coach-bio {
         margin: auto;
@@ -649,6 +644,11 @@ footer {
 
     .social-links {
         text-align: right;
+    }
+
+    /* Additional spacing from right edge of screen on owner-details section text */
+    .owner-details {
+        padding-right: 40px;
     }
 }
 
