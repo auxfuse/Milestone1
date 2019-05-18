@@ -659,7 +659,7 @@ footer {
 
 /* Large Tablet & Small Laptop Screen Size */
 @media (min-width: 992px) {
-    /* Classes Page row to column expansion */
+    /* Classes Page ~ row to column expansion */
     .classes-breakdown ul::before {
         height: 0;
         width: 0;
