@@ -58,11 +58,13 @@
 <!--Contact Form-->
 <section class="container-fluid contact-form-section">
     <div class="row">
+
         <h3 class="col-sm-12 uppercase contact-form-header text-center">Contact us!</h3>
         <p class="col-sm-12 uppercase contact-form-sub-header text-center">Fill out this form and we will contact you back.</p>
     </div>
     <div class="center-form text-center contact-form">
         <form>
+            <!-- Form inputs validated as per industry standards and each holds the "required" attribute -->
             <input type="text" name="name" id="fullname" class="form-control" placeholder="Enter Full Name" required="">
             <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Enter Email" required="">
             <input type="number" name="phone" id="phoneno-query" class="form-control" placeholder="Enter Phone Number" required="">
@@ -88,7 +90,9 @@
     </div>
     <div class="row opening-hours">
         <ul class="text-center">
+            <!-- list items to stack from smallest device widths and up via col-sm-12 -->
             <li class="col-sm-12 weekdays">
+                <!-- Use of Font awesome icons in front of day ranges to provide eye-catching visuals -->
                 <p><i class="fas fa-calendar-week"></i> Monday - Friday</p>
                 <span class="text-center">7:00AM - 9:00PM</span>
             </li>
