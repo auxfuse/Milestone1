@@ -9,7 +9,7 @@
 }
 
 .text-center {
-    text-align: center !important;
+    text-align: center;
 }
 
 .orange {
@@ -48,10 +48,12 @@
     font-family: 'Oswald', sans-serif;
 }
 
+/* Use of !important here to override the navbar-dark class active state color from the bootstrap scss styles */
 .active a {
     color: #ff6e38 !important;
 }
 
+/* Use of !important here to override the navbar-dark hover state color from the bootstrap scss styles */
 .navbar ul li a:hover {
     color: #ff6e38 !important;
     transition: all 0.35s ease-in-out;
@@ -63,7 +65,7 @@
 /* Index Welcome image */
 
 figure {
-    margin: 0 !important;
+    margin: 0;
 }
 
 .main-img {
@@ -201,8 +203,8 @@ figure {
 }
 
 .amenities-item {
-    background-color: #1d2527 !important;
-    border: none !important;
+    background-color: #1d2527;
+    border: none;
 }
 
 .amenities-list li {
@@ -289,8 +291,8 @@ figure {
 }
 
 .list-group-item {
-    background-color: #1d2527 !important;
-    border: none !important;
+    background-color: #1d2527;
+    border: none;
 }
 
 .list-group li {
@@ -370,8 +372,8 @@ figure {
     background: #ced4da;
 }
 
-.day {
-    background-color: #ff6e38 !important;
+ul .day {
+    background-color: #ff6e38;
     padding: 6px 10px 10px 10px;
 }
 
@@ -394,7 +396,6 @@ figure {
 
 .contact-form-section {
     margin: 91px 0 20px 0;
-    /*background-color: #ced4da;*/
 
     background: url("../images/barbells.jpg") no-repeat center;
       -webkit-background-size: cover;
@@ -433,12 +434,12 @@ form .form-control {
     margin-bottom: 10px;
 }
 
-form textarea {
-    height: 15rem !important;
+#query {
+    height: 15rem;
 }
 
 .custom-select {
-    color: #495057 !important;
+    color: #495057;
     margin-bottom: 10px;
 }
 
@@ -493,7 +494,7 @@ footer {
 /* Auxiliary Links */
 
 .footer-list .additional-links-footer {
-    padding-left: 0 !important;
+    padding-left: 0;
 }
 
 .footer-list .footer-item a {
@@ -537,7 +538,6 @@ footer {
 .btn--orange {
     background-color: #1d2527;
     color: #ff6e38;
-    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -571,17 +571,18 @@ footer {
 }
 
 .close {
-    color: orangered !important;
+    color: orangered;
 }
 
+/* !important needed here to override bootstrap scss styles of the class .text-muted */
 .form-group small {
     color: #7e9ca7 !important;
 }
 
 .btn-success {
-    background-color: white !important;
-    color: orangered !important;
-    border-color: #ced4da !important;
+    background-color: white;
+    color: orangered;
+    border-color: #ced4da;
 }
 
 /* Media Queries */
@@ -633,6 +634,7 @@ footer {
         padding-bottom: 10px;
     }
 
+    /* Use os !important here to Reduce padding height between header and CTA button */
     .free-intro-header {
         padding: 10px 0 !important;
     }
