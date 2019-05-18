@@ -5,11 +5,14 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Browser tab icon, otherwise known as a Favicon -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- Associated links for styles & frameworks -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+    <!-- Browser Tab Title -->
     <title>One Last Rep | Earn your Stripes!</title>
 </head>
 
@@ -140,20 +143,25 @@
 <!-- Footer (social media/Free Intro Class CTA/Privacy Policy etc etc) -->
     <footer class="container-fluid">
         <div class="row">
+            <!-- Supplementary links section such as Directions to Gym/Link to Contact -->
             <div class="col-sm-4 footer-list text-center">
                 <ul class="additional-links-footer">
+                    <!-- Each li element, except for contact, will open up in a new tab to reduce potential of user navigating away without returning -->
+                    <!-- "Contact" li element will navigate user to Contact page -->
                     <li class="footer-item"><a href="assets/supplementarydocs/gdprnotice.pdf" target="_blank">Privacy Policy</a></li>
                     <li class="footer-item"><a href="https://wego.here.com/directions/mix//OLR-Fitness,-Six-Cross-Roads,-Waterford:e-eyJuYW1lIjoiT0xSIEZpdG5lc3MiLCJhZGRyZXNzIjoiU2l4IENyb3NzIFJvYWRzLCBXYXRlcmZvcmQsIElyZWxhbmQiLCJsYXRpdHVkZSI6NTIuMjMxMDI5OSwibG9uZ2l0dWRlIjotNy4xNDMyOSwicHJvdmlkZXJOYW1lIjoiZmFjZWJvb2siLCJwcm92aWRlcklkIjo0ODY5MzAwNDg0NzQxMDd9?map=52.22113,-6.92637,11,normal&fb_locale=en_GB" target="_blank">Directions</a></li>
                     <li class="footer-item"><a href="contact.html">Contact</a></li>
                     <li class="footer-item"><a href="assets/supplementarydocs/accreditation.pdf" target="_blank">Accreditation</a></li>
                 </ul>
             </div>
+            <!-- Primary Call-to-action of website, to entice user to sign up for free class -->
             <div class="col-sm-4 sign-up text-center">
                 <section class="free-intro">
                     <h3 class="free-intro-header">Schedule <span class="faded-orange">FREE</span> Intro Class!</h3>
                         <button class="btn btn-sm btn--cta btn--orange" data-toggle="modal" data-target="#signUpModal">Click here!</button>
                 </section>
             </div>
+            <!-- Social Media Links, that when clicked will navigate user to each in a new tab -->
             <div class="col-sm-4">
                 <ul class="list-inline social-links">
                     <li class="list-inline-item">
@@ -202,6 +210,8 @@
         </button>
                 </div>
                 <div class="modal-body">
+                    <!-- Required attribute added to each element of the modal, as is customary and to industry standards -->
+                    <!-- Each form element has the associated data input validation added to it, e.g. Contact Number will only accept numerical values -->
                     <form>
                         <div class="form-group">
                             <label for="Name">Full Name</label>
@@ -230,7 +240,7 @@
         </div>
     </div>
 
-<!-- JQuery -->
+<!-- JQuery for Navbar expansion/collapse & Modal popup -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>

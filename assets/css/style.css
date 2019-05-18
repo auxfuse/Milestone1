@@ -607,6 +607,7 @@ footer {
 
 /* Small Tablet Screen Size */
 @media (min-width: 576px) {
+    /* Conversion of col-sm-4 to take up 100% of the space for footer elements to stack in a column fashion */
     .col-sm-4 {
         width: 100%;
     }
