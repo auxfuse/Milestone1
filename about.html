@@ -63,7 +63,9 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-sm-12 col-md-4 col-lg-3 d-md-block owner-main">
+        <!-- Col sizes for each breakpoint added to each sub-section totalling 12 cols per breakpoint. (e.g. col-md-4 + col-md-8 = 12) -->
+        <div class="col-sm-12 col-md-4 col-lg-3 owner-main">
+            <!-- Class of img-fluid from bootstrap to make image repsonsive within its respective parent div -->
             <img src="assets/images/daveowner.jpg" class="img-fluid mx-auto d-block" alt="One Last Rep Owner ~ Dave O Keeffe">
         </div>
         <div class="col-sm-12 col-md-8 col-lg-9 owner-details">
@@ -88,6 +90,7 @@
        </div>
     </div>
     <div class="row">
+        <!-- Use of col-md/lg-3 here to take up one quarter of the row, with the remaining space allocated to the carousel -->
         <div class="col-sm-12 col-md-3 col-lg-3 amenities">
             <ul class="amenities-list">
                 <li class="amenities-item">4 Tried & Tested Coaches</li>
@@ -106,9 +109,11 @@
         </div>
 
         <!-- Carousel -->
+        <!-- Carousel utilising the remaining col space from above list on the same row -->
         <div class="col-sm-12 col-md-9 col-lg-9 carousel-container">
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
+                  <!-- Each image inside of the carousel has the img-fluid class from Bootstrap framework to make them responsive -->
                 <div class="carousel-item active">
                   <img class="d-block w-100 img-fluid" src="assets/images/assaultbike.jpg" alt="First slide">
                 </div>
@@ -143,6 +148,7 @@
                   <img class="d-block w-100 img-fluid" src="assets/images/olrfitnessblack-tiger.png" alt="Eleventh slide">
                 </div>
               </div>
+                <!-- Carousel left & right controls -->
                   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span>
