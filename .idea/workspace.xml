@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5df406b-7b5d-4de0-a44f-eed8d37a993d" name="Default Changelist" comment="" />
+    <list default="true" id="c5df406b-7b5d-4de0-a44f-eed8d37a993d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/ux/skeletonplane/contactwireframe-mobile.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/ux/SkeletonPlane/AboutWireframe-Desktop-Tablet.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/ux/skeletonplane/aboutwireframe-desktop-tablet.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/ux/SkeletonPlane/AboutWireframe-Mobile.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/ux/skeletonplane/aboutwireframe-mobile.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/ux/SkeletonPlane/ClassesWireframe-Desktop-Tablet.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/ux/skeletonplane/classeswireframe-desktop-tablet.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/ux/SkeletonPlane/ClassesWireframe-Mobile.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/ux/skeletonplane/classeswireframe-mobile.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/ux/SkeletonPlane/CoachesWireframe-Desktop-Tablet.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/ux/skeletonplane/coacheswireframe-desktop-tablet.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/ux/SkeletonPlane/CoachesWireframe-Mobile.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/ux/skeletonplane/coacheswireframe-mobile.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/ux/SkeletonPlane/ContactWireframe-Desktop-Tablet.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/ux/skeletonplane/contactwireframe-desktop-tablet.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/ux/SkeletonPlane/IndexWireframe-Desktop-Tablet.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/ux/skeletonplane/indexwireframe-desktop-tablet.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/ux/SkeletonPlane/IndexWireframe-Mobile.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/assets/ux/skeletonplane/indexwireframe-mobile.PNG" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,17 +50,17 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-119">
-                <caret line="195" column="226" selection-start-line="195" selection-start-column="226" selection-end-line="195" selection-end-column="226" />
+              <first_editor relative-caret-position="272">
+                <caret line="155" column="84" selection-start-line="155" selection-start-column="84" selection-end-line="155" selection-end-column="84" />
               </first_editor>
               <second_editor />
             </state>
@@ -118,13 +130,32 @@
               <item name="Milestone1" type="b2602c69:ProjectViewProjectNode" />
               <item name="Milestone1" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Milestone1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Milestone1" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="readmeimages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Milestone1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Milestone1" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="supplementarydocs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Milestone1" type="b2602c69:ProjectViewProjectNode" />
               <item name="Milestone1" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="UX" type="462c0819:PsiDirectoryNode" />
+              <item name="ux" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Milestone1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Milestone1" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="ux" type="462c0819:PsiDirectoryNode" />
+              <item name="skeletonplane" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -209,7 +240,7 @@
       <workItem from="1558069759704" duration="4377000" />
       <workItem from="1558110969459" duration="9688000" />
       <workItem from="1558177692895" duration="11174000" />
-      <workItem from="1558202757429" duration="10290000" />
+      <workItem from="1558202757429" duration="10698000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1555161008715</created>
@@ -229,7 +260,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="289358000" />
+    <option name="totallyTimeSpent" value="289766000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -242,9 +273,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49533954" visible="true" weight="0.11940298" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49533954" visible="true" weight="0.20042644" />
       <window_info id="Structure" order="1" sideWeight="0.5046604" side_tool="true" weight="0.11727079" />
       <window_info id="Favorites" order="2" sideWeight="0.5021645" side_tool="true" weight="0.5815565" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -370,18 +400,18 @@
     <entry file="file://$PROJECT_DIR$/contact.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-119">
-            <caret line="195" column="226" selection-start-line="195" selection-start-column="226" selection-end-line="195" selection-end-column="226" />
+          <first_editor relative-caret-position="272">
+            <caret line="155" column="84" selection-start-line="155" selection-start-column="84" selection-end-line="155" selection-end-column="84" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

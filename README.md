@@ -77,7 +77,7 @@ In order to deploy the website to Github pages, I:
 
 ### User Experience Design
 ***
-To read the full User Experience Design report please click <a href="https://github.com/auxfuse/Milestone1/blob/master/assets/UX/UXD.pdf">Here</a>.
+To read the full User Experience Design report please click <a href="https://github.com/auxfuse/Milestone1/blob/master/assets/ux/uxd.pdf">Here</a>.
 
 >The information that follows is a synopsis of the attached full report:
 
@@ -153,10 +153,10 @@ device size coming up next:
 
 ![IndexWrieframe-Mobile](assets/ux/skeletonplane/indexwireframe-mobile.PNG)
 
-*Please click __<a href="https://github.com/auxfuse/Milestone1/tree/master/assets/ux/SkeletonPlane">Here</a>__ to view the complete list of Wireframes created.*
+*Please click __<a href="https://github.com/auxfuse/Milestone1/tree/master/assets/ux/skeletonplane">Here</a>__ to view the complete list of Wireframes created.*
 
 These wireframes templates do not 100% reflect the end result of the project and were only used as the original concept design to get started and for engagement with
-the customer. To see the list of changes implemented on the website versus the original concept please see the full __<a href="https://github.com/auxfuse/Milestone1/blob/master/assets/UX/UXD.pdf">User Experience Design</a>__ report.
+the customer. To see the list of changes implemented on the website versus the original concept please see the full __<a href="https://github.com/auxfuse/Milestone1/blob/master/assets/ux/uxd.pdf">User Experience Design</a>__ report.
 
 ### Testing.
 ***
