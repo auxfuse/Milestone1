@@ -9,7 +9,7 @@ This Milestone project creation is the culmination of learning and study from th
 Course, HTML, CSS & User Centric Frontend Development, to build a mobile-first fully responsive website for a local startup Gym,
 "One Last Rep."
 
-![alt text](https://github.com/auxfuse/Milestone1/blob/master/images/olrfitnesslogo.png "One Last Rep Logo")
+![One Last Rep Logo](assets/images/olrfitnesslogo.png)
 
 This website creates a centered point for non-members and members alike to view the facilities and amenities at play,
 the classes available, the wide facet of coaching and contact the Gym directly through a contact form.
@@ -61,7 +61,7 @@ In order to clone the website:
 * Click on the <i>"Clone or download"</i> green button located above and to the right of the File Structure table.
 * Click on the <i>"clipboard icon"</i> to the right of the Git URL to copy the web URL of the Clone. 
 ###### (See next image, highlighted in orange)
-![alt text](readmeimages/clone.PNG "Snapshot of Clone from Github")
+![Snapshot of Clone from Github](assets/readmeimages/clone.PNG)
 
 * Open your preferred Integrated Development Environment (IDE) and navigate to the terminal window.
 * Change the directory to where you want to clone the repository too. (In the case of PyCharm the directory path can be found through the <i>"Navigate"</i> tab).
@@ -121,7 +121,7 @@ Opportunity/Problems | Importance | Viability/Feasibility
 *E. Promote Personal Training Initiative* | 3 | 5
 *F. Gym history promoting competitive status* | 2 | 5
 
-![alt text](readmeimages/prioritymatrix.PNG "Priority Matrix UXD")
+![Priority Matrix UXD](assets/readmeimages/prioritymatrix.PNG)
 
 ##### <i>Structure</i>
 The overall structure of the website will be a conventional __"Family Tree"__. It will consist of 5 page, a modal and several links to external
@@ -147,11 +147,11 @@ the flow, colour scheme, fonts, sections and functionality. The side-by-side com
 device size coming up next:
 * Larger Device View
 
-![IndexWireframe-Desktop-Tablet](https://github.com/auxfuse/Milestone1/blob/master/UX/SkeletonPlane/IndexWireframe-Desktop-Tablet.PNG)
+![IndexWireframe-Desktop-Tablet](assets/UX/SkeletonPlane/IndexWireframe-Desktop-Tablet.PNG)
 
 * Smaller Device View
 
-![IndexWrieframe-Mobile](https://github.com/auxfuse/Milestone1/blob/master/UX/SkeletonPlane/IndexWireframe-Mobile.PNG)
+![IndexWrieframe-Mobile](assets/UX/SkeletonPlane/IndexWireframe-Mobile.PNG)
 
 *Please click __<a href="https://github.com/auxfuse/Milestone1/tree/master/UXD/Skeleton%20Plane">Here</a>__ to view the complete list of Wireframes created.*
 
