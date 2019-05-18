@@ -77,7 +77,7 @@ In order to deploy the website to Github pages, I:
 
 ### User Experience Design
 ***
-To read the full User Experience Design report please click <a href="UXD/UXD.pdf">Here</a>.
+To read the full User Experience Design report please click <a href="https://github.com/auxfuse/Milestone1/blob/master/assets/UX/UXD.pdf">Here</a>.
 
 >The information that follows is a synopsis of the attached full report:
 
@@ -153,10 +153,10 @@ device size coming up next:
 
 ![IndexWrieframe-Mobile](assets/UX/SkeletonPlane/IndexWireframe-Mobile.PNG)
 
-*Please click __<a href="https://github.com/auxfuse/Milestone1/tree/master/UXD/Skeleton%20Plane">Here</a>__ to view the complete list of Wireframes created.*
+*Please click __<a href="https://github.com/auxfuse/Milestone1/tree/master/assets/UX/SkeletonPlane">Here</a>__ to view the complete list of Wireframes created.*
 
 These wireframes templates do not 100% reflect the end result of the project and were only used as the original concept design to get started and for engagement with
-the customer. To see the list of changes implemented on the website versus the original concept please see the full __<a href="UXD/UXD.pdf">User Experience Design</a>__ report.
+the customer. To see the list of changes implemented on the website versus the original concept please see the full __<a href="https://github.com/auxfuse/Milestone1/blob/master/assets/UX/UXD.pdf">User Experience Design</a>__ report.
 
 ### Testing.
 ***
@@ -221,10 +221,12 @@ of my Milestone project, with "Email" as the only field in the formset remaining
 * To <a href="https://github.com/AJGreaves">Anna Greaves</a>, current channel lead for User Centric Frontend. Who has assisted in many back & forth conversations regarding questions and providing exceptional answers to all of us, provided critique through the #peer-review-channel & direct messaging, 
 hosted incredibly structured User Centric Conference calls on a very frequent basis, and created a very easy to follow and understand application on the <a href="https://ajgreaves.github.io/bootstrap-grid-demo/">Bootstrap Grid</a>.
 
-* To the Owner of One Last Rep, Dave O' Keeffe, for allowing me to undertake his core business process, assets and overall time with meetings and queries surrounding same and use them as the basis and core brief for this project;
+* To the Owner of One Last Rep, Dave O' Keeffe, for allowing me to undertake with his core business process, assets (including his corporate GDPR notice used on the Privacy Policy link) and overall time with meetings and queries surrounding same and use them as the basis and core brief for this project;
 <a href="https://auxfuse.github.io/Milestone1/index.html">One Last Rep Website</a>
 
 * To my fellow students in Code Institute and to the staff and mentors who converse & frequent Slack regularly with their own queries/ideas & opinions, and assisting with mine, to help me better understand all facets of this course!
 
+* To the author of <a href="http://www.htmlandcssbook.com/">HTML & CSS</a> Jon Duckett for creating this incredible reference material suggested by some of my student colleagues in Slack.
+
 ##### Disclaimer:
-This project was created for educational use.
+This project was created for educational use. The Accreditation certificate was created by myself and is purely for design purposes only, and added to this project as a Mock-up example.
