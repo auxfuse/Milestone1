@@ -1,9 +1,10 @@
-/* Global */
+/* Global styles used throughout the website */
 
 .container-wrapper {
     width: 100%;
 }
 
+    /* Transform of text to uppercase, can be applied to class justification throughout html */
 .uppercase {
     text-transform: uppercase;
 }
@@ -12,6 +13,7 @@
     text-align: center;
 }
 
+    /* Highlight text used to promote eye catching visuals and promote corporate branding colour scheme */
 .orange {
     color: #ff6e38;
 }
@@ -84,6 +86,7 @@ figure {
     position: relative;
 }
 
+    /* Lead text nested within main-img figure with text-shadow to simulate text-border against high contrasting areas of background image */
 .main-img .lead {
     margin: 25px 0 0 0;
     color: white;
@@ -93,6 +96,7 @@ figure {
     text-align: center;
 }
 
+    /* Class of orange text nested within main-img figure with text-shadow to simulate text-border against high contrasting areas of background image */
 .main-img .orange {
     text-shadow: -0.5px 0 #31393c, 0 0.5px #31393c, 0.5px 0 #31393c, 0 -0.5px #31393c;
 }
@@ -119,6 +123,7 @@ figure {
     margin: 15px 0;
 }
 
+    /* Horizontal line break after individual testimonials to promote visual breaks for the user */
 .testimonial-media::after {
     content: "";
     display: block;
@@ -132,6 +137,8 @@ figure {
     margin: 10px auto;
 }
 
+    /* Testimonial images with object-fit: contain to preserve aspect ratio of image */
+    /* Custom border radius code via Fancy Border Radius generator by Mirko & Nils (see readme.md for link to) */
 .media img{
     height: 150px;
     object-fit: contain;
@@ -157,6 +164,7 @@ figure {
     margin: auto 0;
 }
 
+    /* Use of object-fit: contain to preserve aspect ratio of image nested within owner-main section */
 .owner-main img {
     height: 400px;
     object-fit: contain;
@@ -173,6 +181,7 @@ figure {
     padding: 15px;
 }
 
+    /* Creation of horizontal line to promote end of content after <p> element of owner-details */
 .owner-details p::after {
     content: "";
     display: block;
@@ -188,6 +197,7 @@ figure {
     background-color: #1d2527;
 }
 
+    /* Background gradient used to accentuate the overlaying header with 3 stops used, (2 @ 0, 1 @ 0.1 alpha to show transparency) */
 .amenities-header h4 {
     font-family: 'Oswald', sans-serif;
     text-align: center;
@@ -195,6 +205,7 @@ figure {
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) , rgba(255, 255, 255, 0.1));
 }
 
+    /* Left aligned text and removal of List style bullet to replace below with corporate branding icon */
 .amenities-list {
     color: #ced4da;
     list-style-type: none;
@@ -213,6 +224,7 @@ figure {
     padding: 10px 0;
 }
 
+    /* Replacement of list style bullet on amenities list with corporate branding icon before the list item info */
 .amenities-item::before {
     content: '';
     display: inline-block;
@@ -229,6 +241,9 @@ figure {
     margin: auto 0;
 }
 
+    /* Use of object fit on carousel images to preserve aspect ratio and prevent unnecessary stretching to fill entire carousel width */
+    /* Webkit for opera added as per autoprefixer, unfortunately no webkit exists for Internet Explorer where object-fit is not recognised and therefore does not maintain
+     aspect ratio of the images nest within the carousel */
 .carousel img {
     -o-object-fit: contain;
     object-fit: contain;
@@ -242,6 +257,7 @@ figure {
 }
 
 /* Owner & Coaches Name headers on About page & Coaches page */
+    /* Background of header set with gradient and 3 stops, (2 @ 0, 1 @ 0.1 alpha declaring transparency) to show distinction of section and a more visually appealing header */
 .coach-name, .owner-name h3 {
     font-family: 'Oswald', sans-serif;
     text-align: center;
@@ -261,6 +277,7 @@ figure {
     margin: 20px auto;
 }
 
+    /* Use of object-fit: contain to preserve image aspect ratio even when parent container is scaled */
 .coach-details img {
     height: 300px;
     object-fit: contain;
@@ -283,6 +300,7 @@ figure {
     font-size: 20px;
 }
 
+    /* Center alignment with removal of list style neutral bullet in order to replace below with corporate branding icon */
 .list-group {
     color: #ced4da;
     list-style-type: none;
@@ -301,6 +319,7 @@ figure {
     padding: 10px 0;
 }
 
+    /* Replacement of neutral list style bullet with corporate branding icon before the list item info */
 .list-group-item::before {
     content: '';
     display: inline-block;
@@ -337,6 +356,7 @@ figure {
     font-family: 'Oswald', sans-serif;
 }
 
+    /* Creation of horizontal line to show distinction after timetable-header */
 .timetable-header h2::after {
     content: "";
     display: block;
@@ -363,6 +383,7 @@ figure {
     width: 100%;
 }
 
+    /* Creation of border tabular styles for the list items of class-timetable-day */
 .class-timetable-day li {
     border: 2px solid #ff6e38;
     list-style-type: none;
@@ -383,6 +404,7 @@ ul .day {
     font-size: 1.4em;
 }
 
+    /* Creation of horizontal line to show distinction before the child list of classes-breakdown section */
 .classes-breakdown ul::before {
     content: "";
     display: block;
@@ -402,6 +424,7 @@ ul .day {
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
+    /* Placement of shadow over background image to counteract over-exposure of image and create a greater contrast against the overlaying form elements */
     box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
 
     padding: 20px;
@@ -415,6 +438,7 @@ ul .day {
     padding-top: 10px;
 }
 
+    /* Creation of horizontal line after contact-form-header to show distinction */
 .contact-form-header::after {
     content: "";
     display: block;
@@ -453,6 +477,7 @@ form .form-control {
     margin: 0 auto 15px;
 }
 
+    /* Creation of horizontal line under opening-hours-header to show distinction */
 .opening-hours-header h4::after {
     content: "";
     display: block;
@@ -505,7 +530,7 @@ footer {
     list-style-type: none;
     padding-top: 0.5rem;
 }
-
+    /* animation of hover applied with 0.35s transition speed with all webkits available added */
 .footer-list li a {
     text-decoration: none;
     transition: all 0.35s ease-in-out;
@@ -514,6 +539,7 @@ footer {
     -o-transition: all 0.35s ease-in-out;
 }
 
+    /* On hover, change the colour of the footer-list to colour listed in this style */
 .footer-list li a:hover {
     color: #ff6e38;
 }
@@ -548,7 +574,7 @@ footer {
     padding-top: 50px;
     text-align: center;
 }
-
+    /* animation of hover applied with 0.35s transition speed */
 .social-links li a i {
     width: 40px;
     height: 40px;
@@ -560,6 +586,7 @@ footer {
     -o-transition: all 0.35s ease-in-out;
 }
 
+    /* On hover, change the default colour of the link to colour listed in this style */
 .social-links li a i:hover {
     color: #ff6e38;
 }
